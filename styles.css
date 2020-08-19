@@ -1,0 +1,1562 @@
+/* Nav bar */ 
+
+a:link {
+    text-decoration: none;
+}
+a:visited {    
+    text-decoration: none;
+}
+
+a:active {    
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #F0A160 !important;
+    
+}
+
+/* gray nav scroll 
+
+nav.scrolled {
+    background: #A7A9AC !important;
+}
+*/
+/* red nav sroll 
+
+nav.scrolled {
+    background: #D15E5E !important;
+}
+*/
+/* light-orange scroll */
+
+nav.scrolled {
+    background: #FFA969 !important;
+}
+
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #C05050;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url(hamburger_menu.svg);
+}
+
+.main-nav-link {
+    padding: 0px 200px 0px 200px;
+}
+.navbar-brand {
+    width: 220px;
+    margin-left: -20px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.nav {
+    width: 100%;
+}
+
+
+.show > .dropdown-toggle:focus {
+    color: #C05050 !important;
+}
+
+.dropwdown-menu {
+    border-color: none;
+}
+
+.dropdown-menu.show {
+    margin-top: 0px;
+    padding: 0px;
+
+}
+
+
+.dropdown-item {
+    color: #C05050;
+}
+
+.dropdown-item:hover {
+    color: white; 
+    background-color: #C05050;
+}
+
+/* Intro Header */  
+
+.intro {
+    margin-top: 160px; 
+    height: 300px;
+    background-color: #6D95B7;
+    padding-top: 40px;
+    padding-bottom: 300px;
+
+}
+.intro-row {
+    color: white; 
+    font-size: 30px;
+    margin-left: 120px;
+
+}
+
+#my-name {
+    color: #F1BA52;
+    font-weight: 700px;
+}
+.about-me {
+    color: white;
+    font-size: 20px;
+    margin-left: 135px;
+}
+
+.sentences {
+    margin-top: 20px;
+}
+
+.blue-box {
+    background-color: #57758E;
+    margin-right: 160px;
+    padding-left: 2px;
+}
+
+.skills 
+{
+    margin-top: 110px;
+}
+
+/* Skill Cards */ 
+
+.skills-grid {
+    margin-top: 100px;
+    padding-bottom: 250px;
+    
+    
+}
+
+.mobile-skill-grid {
+    padding-bottom: 200px;
+}
+
+
+
+.overlay {
+    position: absolute; 
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    background-color: #F8B37B;
+    border-width: 4px;
+    
+} 
+
+.card-skills {
+    border: 1px none;
+    background-color: #F0A160;
+    width: 100%;
+
+}
+
+.card:hover .overlay {
+    opacity: 1;
+    border: 5px solid #F0A160;
+    border-radius: 2px;
+}
+
+    
+    
+/*
+
+
+.hvr-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-reveal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;    
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-color: #F0A160;
+    border-style: solid;
+    border-width: 0;    
+    -webkit-transition-property: border-width;
+    transition-property: border-width;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+}
+.hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 4px;
+  background-color: #F8B37B; 
+
+}
+*/
+.text {
+    width: 100%;
+    height: 95%;
+    color: white; 
+    font-size: 16px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-20%,-20%);
+    -ms-transform: translate(-20%,-20%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-center{
+    padding-top: 30px;
+    
+}
+#text-center-PM {
+    padding-top: 45px;
+}
+
+#text-center-tools {
+    padding-top: 10px;
+}
+
+
+.icon-size 
+{
+    transform: scale(1.2,1.2);
+}
+.skill-title {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-spacing {
+    padding-right: 20px; 
+    padding-left: 20px;
+    
+}
+
+#arrow {
+    width: 15%;
+}
+
+.swiper-container {
+     display: none;
+    }
+
+/* Work Cards */ 
+
+
+#see-work {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-work {
+    border-color: ##888889;
+    background-color: white; 
+    border-width: 3px;
+}
+
+.work-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.work-body {
+    padding: 25px;
+}
+
+.see-work {
+    padding-bottom: 50px;
+}
+
+
+.go-work {
+    background-color: #F0A160;
+    border: 1px;
+    font-weight: 600;
+
+
+}
+
+.go-work:hover{
+    background-color: white;
+    color: #F0A160;
+    border: 1px solid #F0A160;
+}
+
+/* Footer */
+
+.footer-icons {
+    transform: scale(.45,.45);
+    margin-left: -20px;
+}
+
+.icon-padding {
+    margin-top: 200px;
+    padding-left: 30px;
+}
+
+.icon-spacing {
+    margin-left: -60px;
+}
+#resume-padding {
+    width: 70%;
+    margin-top: -7px;
+}
+
+.footer {
+    background: #F0A160;
+    width: 100%;
+    height: auto;
+}
+
+.made-by-me {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.heart {
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: -40px;
+    margin-top: -40px;
+}
+#heart {
+    transform: scale(.2,.2);
+    margin-left: -90px;
+    margin-right: -50px;
+    margin-top: -8px;
+}
+
+
+/* Mac 27in */
+@media screen and (min-width:2560px) {
+  
+    #logo {
+        width: 110%;
+    } 
+    
+    a {
+        font-size: 20px;
+    }
+    
+    .navbar-expand-sm .navbar-nav .nav-link{
+        padding-right: 120px;
+        padding-left: 120px;
+    }
+    
+    .intro {
+        margin-top: 180px;
+        padding-top: 70px;
+        padding-bottom: 350px;
+    }
+    
+    
+    .about-me {
+        font-size: 25px;
+        
+    }
+    
+    .intro-row, .about-me {
+        margin-left: 400px;
+    }
+    
+    .intro-row {
+        font-size: 30px;
+        margin-left: 380px;
+    }
+    .blue-box {
+        margin-right: 160px;
+    }
+    
+    .expand-skills {
+        width: 110%;
+    }
+    
+    .card-spacing {
+        padding-right: 25px; 
+        padding-left: 25px;
+        margin: 20px;
+        
+    }
+    
+    .expand-work {
+        width: 110%;
+    }
+    
+    .skills-grid {
+        padding-top: 50px;
+        padding-bottom: 350px;
+        
+    }
+
+ 
+    
+    
+    
+
+}
+
+
+/* Macbook Pro 15 in */
+@media screen and (max-width:1440px) and (orientation:landscape){
+    a {
+        font-size: 16px;
+    }
+    
+    .intro {
+        margin-top: 160px;
+        padding-bottom: 200px;
+    }
+    .intro-row {
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    
+    .about-me {
+        font-size: 16px;
+        margin-left: 115px;
+    }
+    .skills-grid {
+        margin-top: 100px;
+    }
+    
+    .card-spacing {
+        margin: 0px;
+        
+    }
+    
+    .blue-box {
+        margin-right: 65px;
+    
+    }
+    
+    .work-grid {
+        margin-top: 30px;
+    }
+    
+    .work-title {
+        font-size: 16px;
+    }
+    
+    .work-body {
+        padding: 20px;
+        font-size: 14px;
+    }
+    
+    .go-work {
+        font-size: 16px;
+    }
+    
+    #arrow {
+        margin-top: -20px;
+    }
+        
+}
+
+
+/* Macbook 13 */
+@media screen and (max-width:1280px) and (orientation:landscape) {
+    #logo {
+        width: 80%;
+    }
+    
+    a {
+        font-size: 14px;
+    }
+    .intro {
+        margin-top: 130px;
+        margin-bottom: -30px;
+    }
+    
+    .intro-row {
+        margin-left: 52px;
+    }
+    
+    .about-me {
+        margin-left: 70px;
+    }
+    
+    .blue-box {
+        margin-right: 20px;
+    }
+    
+    .skill-title  {
+        font-size: 16px;
+    }
+    
+    .text-center, #text-center-tools {
+        font-size: 13px;
+    }
+    
+    #text-center-PM {
+        font-size: 13px;
+    }
+
+    .card-skills {
+        width: 85%;
+    }
+    
+    #arrow {
+        padding-right: 20px;
+        width: 18%;
+        margin-top: -40px;
+    }
+    
+    .go-work {
+        font-size: 14px;
+    }
+    
+    #resume-padding {
+        margin-top: -4px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width:1199.98px) and (orientation:landscape) {
+    .intro {
+        margin-bottom: -50px;
+    }
+    
+    .about-me {
+        margin-left: 20px;
+    }
+    .intro-row {
+        margin-left: 5px;
+    }
+    
+    .blue-box {
+        margin-right: 1000px;
+    }
+    
+    .skills-grid {
+        display: none;
+        
+    }
+    
+    .swiper-container {
+        display: block;
+        height: 500px;
+        padding-bottom: 200px;
+        margin-top: 10px;
+        margin-bottom: 200px;
+    }
+    
+    .swiper-slide {
+        transform: scale(.4,.4);
+    }
+     
+    .swiper-button-prev, .swiper-button-next {
+        color: #F0A160;
+        
+    }
+    
+    .swiper-button-prev {
+        transform: translateX(200px);
+    }
+    
+    .swiper-button-next {
+        transform: translateX(-200px);
+    }
+    
+    .blue-box {
+        margin-right: 0px;
+    }
+    
+    .swiper-pagination-bullet-active {
+        background: #F0A160;
+    }
+    
+    .footer-icons {
+        transform: scale(.35,.35);
+    }
+    
+    
+
+    
+}
+
+@media screen and (max-width:991.98px) and (orientation:landscape) {
+    .nav {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    .intro {
+        padding-left: 175px;
+        padding-right: 175px;
+        padding-bottom: 0px;
+        height: 250px;
+        padding-top: 30px;
+        margin-bottom: -85px;
+    }
+    
+    a {
+        font-size: 13px;
+    }
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    
+    #logo {
+        margin-left: -60px;
+    }
+    
+    
+    .intro-row {
+        font-size: 20px;
+        margin-left: -32px;
+    }
+    .blue-box {
+        margin-right: -45px;
+    }
+    
+    .about-me {
+        font-size: 15px;
+        margin-left: -20px;
+    }
+    .swiper-slide {
+        padding-top: 80px;
+        
+    }
+    .swiper-button-prev {
+        transform: scale(.8,.8) translate(210px, 10px);
+    }
+    
+    .swiper-button-next {
+        transform: scale(.8,.8) translate(-210px, 10px);
+    }
+    
+    .swiper-container {
+        margin-bottom: 20px;
+    }
+    
+    .work-title {
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .work-body {
+        font-size: 12px;
+    }
+    
+    
+    .footer-icons {
+        width: 45%;
+    }
+    
+    .icon-spacing {
+        margin-left: -160px;
+    }
+    
+    .icon-padding {
+        margin-left: 100px;
+        
+    }
+    
+    .made-by-me {
+        font-size: 14px;
+    }
+   
+}
+
+@media screen and (max-width:971px) and (orientation:landscape) {
+    .blue-box {
+        margin-right: -60px;
+    }
+}
+
+
+@media screen and (max-width:951px) and (orientation:landscape) {
+    .blue-box {
+        margin-right: -70px;
+
+    }
+}
+
+@media screen and (max-width:938px) and (orientation:landscape) {
+    .blue-box {
+        margin-right: -80px;
+    }
+    
+}
+
+@media screen and (max-width:925px) and (orientation:landscape) {
+    .blue-box {
+        margin-right: -90px;
+    }
+}
+
+@media screen and (max-width:912px) and (orientation:landscape) {
+    
+    .intro {
+        padding-bottom: 220px;
+    }
+    
+    .about-me {
+        margin-right: -20px;
+    }
+    
+    .blue-box {
+        margin-right: -100px;
+    }
+}
+
+@media screen and (max-width:878px) and (orientation:landscape) {
+    .about-me {
+        margin-right: -35px;
+    }
+}
+
+@media screen and (max-width:877px) and (orientation:landscape) {
+    .about-me {
+        margin-right: -40px;
+    }
+}
+
+@media screen and (max-width:860px) and (orientation:landscape) {
+    .about-me {
+        margin-right: -55px;
+    }
+}
+
+
+@media screen and (max-width:799px) and (orientation:landscape) {
+    .intro {
+        margin-top: 110px;
+    }
+    
+    .about-me {
+        margin-right: -120px;
+        margin-left: -80px;
+    }
+    
+    .intro-row {
+        margin-left: -80px
+    }
+    
+    .blue-box {
+        margin-right: -45px;
+    }
+}
+
+@media screen and (max-width:767.98px) and (orientation:landscape) {
+    #logo {
+        width: 70%;
+    }
+    a {
+        font-size: 11px;
+        
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .nav {
+        padding-right: 20px;
+    }
+    
+    .intro {
+        margin-top: 120px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+        
+        
+    }
+    
+    .blue-box {
+        margin-right: -100px;
+    }
+    
+    .intro-row{
+        font-size: 18px;
+        margin-left: 1px;
+    }
+    
+    .about-me {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    
+    .blue-box {
+        margin-right: 25px;
+    }
+    
+    .swiper-container {
+        margin-bottom: 60px;
+        padding-bottom: 0px;
+        margin-top: -140px;
+        height: 400px;
+        
+    }
+    
+    .swiper-slide {
+        padding-bottom: 20px;
+    }
+    
+     .swiper-button-prev {
+        transform: translate(170px, 60px) scale(.6,.6);
+       
+    }
+    
+    
+    .swiper-button-next {
+        transform: translate(-170px, 60px) scale(.6,.6);
+
+    }
+    
+    .work-title {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    .work-body {
+        font-size: 13px;
+    }
+    
+    .go-work {
+        font-size: 12px;
+    }
+    
+  
+    
+    
+    
+    
+}
+
+
+@media screen and (max-width:750px) and (orientation:landscape) {
+    .intro {
+        padding-bottom: 230px;
+    }
+}
+
+
+
+@media screen and (max-width:700px) and (orientation:landscape) {
+    .blue-box {
+        margin-right: 0px;
+    }
+    
+    .about-me {
+        margin-left: -30px;
+    }
+    
+    .intro-row {
+        margin-left: -45px11
+    }
+    
+    .intro {
+        padding-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:575.98px) and (orientation:landscape) {
+    .intro {
+        height: 230px;
+        padding-top: 30px;
+    }
+    
+    .intro-row {
+        font-size: 16px;
+        margin-left: -98px;
+    }
+    .about-me {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    
+    .about-me, a {
+        font-size: 12px;
+    }
+    
+    .blue-box {
+        margin-right: -40px;
+    }
+    
+    .swiper-container {
+        margin-bottom: 60px;
+        padding-bottom: 0px;
+        margin-top: -120px;
+        height: 350px;
+        
+    }
+    
+    .swiper-slide {
+        transform: scale(.45,.45); 
+    }
+    
+    .swiper-button-prev {
+        transform: translate(110px, 50px) scale(.6,.6);
+       
+    }
+    
+    .swiper-button-next {
+        transform: translate(-110px, 50px) scale(.6,.6);
+    }
+    
+     .card {
+        margin-right: -100px;
+        margin-left: 100px;
+        transform: scale(.8,.8);
+    }
+    
+    
+    .card-work{
+        margin-top: 50px;
+    
+    
+    
+    }
+    
+     .footer-icons {
+        transform: scale(.6,.6);
+    }
+    
+    .icon-spacing {
+        margin-left: -90px;
+        margin-right: 10px;
+    }
+    
+    .icon-padding {
+        padding-bottom: 50px;
+    }
+   
+    #resume-padding {
+        margin-right: 15px;
+    }
+    
+ 
+    
+   
+    
+}
+
+
+@media screen and (max-width: 1199.98px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 0px;
+    } 
+    
+    
+    
+    .skills-grid {
+        display: none;
+        
+    }
+    
+    .swiper-container {
+        display: block;
+        height: 500px;
+        padding-bottom: 200px;
+        margin-top: -40px;
+        margin-bottom: 280px;
+    }
+    
+    .swiper-slide {
+        transform: scale(.4,.4);
+    }
+     
+    .swiper-button-prev, .swiper-button-next {
+        color: #F0A160;
+        
+    }
+    
+    .swiper-button-prev {
+        transform: translateX(200px);
+    }
+    
+    .swiper-button-next {
+        transform: translateX(-200px);
+    }
+    
+    .blue-box {
+        margin-right: -140px;
+    }
+    
+    .about-me {
+        margin-left: -80px;
+    }
+    
+    .intro-row {
+        margin-left: -95px
+    }
+    
+    .swiper-pagination-bullet-active {
+        background: #F0A160;
+    }
+    
+    .footer-icons {
+        transform: scale(.35,.35);
+    }
+    .made-by-me {
+        font-size: 14px;
+    }
+    
+
+    
+}
+
+@media screen and (max-width:1090px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 320px;
+    }
+}
+
+@media screen and (max-width:991.98px) and (orientation:portrait) {
+      .nav {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    .intro {
+        padding-left: 175px;
+        padding-right: 175px;
+        
+    }
+    
+    a {
+        font-size: 13px;
+    }
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    
+    #logo {
+        margin-left: -60px;
+        width: 95%;
+    }
+    
+    .intro {
+        padding-top: 50px;
+        padding-bottom: 0px; 
+        margin-bottom: -80px;
+    }
+    
+    .intro-row {
+        font-size: 20px;
+    }
+    
+    .about-me {
+        font-size: 16px;
+    }
+    
+    .swiper-container {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .swiper-slide {
+        padding-top: 80px;
+        
+    }
+    
+    .work-title {
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .work-body {
+        font-size: 12px;
+    }
+    
+    .footer {
+    }
+    
+    .footer-icons {
+        width: 45%;
+    }
+    
+    .icon-spacing {
+        margin-left: -160px;
+    }
+    
+    .icon-padding {
+        margin-left: 100px;
+        
+    }
+
+
+    
+}
+
+@media screen and (max-width:850px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 270px;
+    }
+}
+
+
+@media screen and (max-width:767.98px) and (orientation:portrait) {
+      #logo {
+        width: 70%;
+    }
+    a {
+        font-size: 11px;
+        
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .nav {
+        padding-right: 20px;
+    }
+    
+    .intro {
+        margin-top: 120px;
+        padding-top: 20px;
+        padding-bottom: 250px;
+        height: 230px;
+        margin-bottom: 5px;
+        
+   
+    }
+    
+    .intro-row{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    
+    .about-me {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+    
+    .blue-box {
+        margin-right: -3px;
+    }
+    
+    .swiper-container {
+        margin-bottom: 60px;
+        padding-bottom: 0px;
+        margin-top: -130px;
+        height: 400px;
+        
+    }
+    
+    .swiper-slide {
+        padding-bottom: 20px;
+    }
+    
+     .swiper-button-prev {
+        transform: translate(170px, 50px) scale(.6,.6);
+       
+    }
+    
+    
+    .swiper-button-next {
+        transform: translate(-170px, 50px) scale(.6,.6);
+
+    }
+    
+  
+    
+    .work-title {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    .work-body {
+        font-size: 13px;
+    }
+    
+    .go-work {
+        font-size: 12px;
+    }
+    
+    .footer {
+        width: 110%;
+    }
+    
+}
+
+@media screen and (max-width:660px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 280px;
+        padding-top: 50px;
+    }
+    
+    .intro-row {
+        margin-left: -20px;
+    }
+    
+    .about-me {
+        margin-left: 0px;
+        margin-right: -80px;
+    }
+}
+
+@media screen and (max-width:575.98px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 0px;
+        padding-top: 25px;
+    }
+    
+    .intro-row {
+        font-size: 16px;
+        margin-left: -60px;
+    }
+    
+    .about-me, a {
+        font-size: 12px;
+    }
+    
+    .about-me {
+        margin-left: -45px
+    }
+    
+    .swiper-container {
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        margin-top: -90px;
+        height: 350px;
+        
+    }
+    
+    .swiper-slide {
+        transform: scale(.45,.45); 
+    }
+    
+    .swiper-button-prev {
+        transform: translate(110px, 50px) scale(.6,.6);
+       
+    }
+    
+    .swiper-button-next {
+        transform: translate(-110px, 50px) scale(.6,.6);
+    }
+    
+     .card {
+        margin-right: -100px;
+        margin-left: 100px;
+        transform: scale(.9,.9);
+    }
+    
+    
+    .card-work {
+        margin-top: 50px;
+    
+    
+    
+    }
+    
+     .footer-icons {
+        transform: scale(.6,.6);
+    }
+    
+    .icon-spacing {
+        margin-left: -90px;
+        margin-right: 10px;
+    }
+    
+    .icon-padding {
+        padding-bottom: 50px;
+        margin-right: 20px;
+    }
+    
+    #resume-padding {
+        margin-right: 15px;
+        margin-top: -2px;
+    }
+    
+    
+    .made-by-me {
+        margin-left: -50px;
+        font-size: 13px;
+    }
+    
+    #heart {
+        transform: scale(.15,.15);
+    }
+    
+    .heart {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+   
+    
+    
+}
+    
+
+
+@media screen and (max-width: 540px) and (orientation:portrait) {
+    
+    .intro {
+        height: 300px;
+        padding-top: 30px;
+    }
+    
+    .intro-row {
+        font-size: 18px;
+    }
+    
+    .about-me {
+        font-size: 15px;
+    }
+    
+    .swiper-container {
+        height: 330px;
+        margin-bottom: 50px;
+        padding-bottom: 270px;
+        margin-top: -60px;
+        
+    }
+    
+    .swiper-slide {
+        transform: scale(.6,.6);
+    }
+    
+    .swiper-button-prev {
+        transform: translate(60px, 0px) scale(.7,.7);
+    }
+    
+    .swiper-button-next {
+        transform: translate(-60px, 0px) scale(.7,.7);
+    }
+    
+    .work-title {
+        font-size: 15px;
+        padding: 20px;
+        
+    }
+    
+    .card {
+        margin-right: -80px;
+        margin-left: 100px;
+    }
+    
+    .card-work{
+        margin-top: 50px;
+        
+    }
+    
+    
+    .work-body {
+        font-size: 13px;
+    }
+    
+    .go-work {
+        font-size: 12px;
+    }
+    
+    .footer-icons {
+        transform: scale(.6,.6);
+    }
+    
+    .icon-spacing {
+        margin-left: -100px;
+    }
+    
+    
+
+
+
+}
+
+@media screen and (max-width: 530px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 300px;
+    }
+    
+    .intro-row {
+        margin-right: -20px;
+        
+    }
+    
+}
+
+@media screen and (max-width:520px) and (orientation:portrait) {
+    .intro {
+        padding-bottom: 350px;
+    }
+}
+
+
+@media screen and (max-width: 414px) and (orientation:portrait) {
+    .intro-row {
+        margin-right: -150px;
+        margin-left: -150px;
+
+    }
+    
+    .intro {
+        padding-bottom: 0px;
+    }
+    
+    .about-me {
+        margin-left: -130px;
+        margin-right: -150px
+        
+    }
+    
+   .swiper-container {
+        height: 320px;
+        margin-bottom: 50px;
+        padding-bottom: 230px;
+        margin-top: -50px;
+    
+        
+        
+    }
+    
+    .swiper-button-prev {
+        transform: translate(20px, 0px) scale(.7,.7);
+    }
+    
+    .swiper-button-next {
+        transform: translate(-20px, 0px) scale(.7,.7);
+    }
+    
+    .swiper-slide {
+        transform: scale(.68,.68);
+    }
+    
+     .card {
+        margin-right: -70px;
+        margin-left: 70px;
+    }
+    
+     .footer-icons {
+        transform: scale(1.2,1.2);
+    }
+    
+    .icon-spacing {
+        margin-left: -50px;
+        margin-right: -5px;
+    }
+    
+    .icon-padding {
+        width: 70%;
+        padding-bottom: 50px;
+        padding-right: 20px;
+    }
+    
+
+    #resume-padding {
+        margin-right: -5px;
+    }
+    
+    .footer {
+        width: 105%;
+    }
+    
+   
+}
+
+@media screen and (max-width: 375px) and (orientation:portrait) {
+
+    
+    .intro-row {
+        font-size: 18px;
+    }
+    
+    .about-me {
+        font-size: 14px;
+    }
+    
+    .swiper-container {
+        margin-bottom: 20px;
+        padding-bottom: 220px;
+        height: 300px;
+    }
+    
+    .swiper-slide {
+        transform: scale(.7,.7)
+    }
+    
+    .swiper-button-prev {
+        transform: translate(5px,15px) scale(.7,.7);
+    }
+    
+    .swiper-button-next {
+        transform: translate(-5px,15px) scale(.7,.7);
+    }
+    
+    .card {
+        margin-right: -50px;
+        margin-left: 90px;
+        
+    }
+    
+    .footer-icons {
+        transform: scale(1.5,1.5)
+    }
+    
+    .icon-spacing {
+        margin-left: -140px;
+        margin-right: 10px;
+    }
+    
+    .icon-padding {
+        width: 70%;
+        padding-bottom: 50px;
+    }
+    
+    #resume-padding {
+        margin-right: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

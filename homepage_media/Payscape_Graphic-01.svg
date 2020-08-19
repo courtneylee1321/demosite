@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1400 1024" style="enable-background:new 0 0 1400 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#6D95B7;}
+	.st2{font-family:'Avenir-Heavy';}
+	.st3{font-size:72px;}
+	.st4{fill:none;}
+	.st5{font-size:48px;}
+	.st6{font-family:'Avenir-Roman';}
+	.st7{font-size:36px;}
+	.st8{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st9{font-size:24px;}
+	.st10{font-family:'Avenir-Medium';}
+	.st11{fill:none;stroke:#6E96B7;stroke-width:6.5211;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;stroke:#6E96B7;stroke-width:6.5211;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#6E96B7;stroke-width:6.5211;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Payscape">
+	<rect class="st0" width="1400" height="1024"/>
+	<rect class="st1" width="1400" height="261.5"/>
+	<text transform="matrix(1 0 0 1 535.6938 165.4106)" class="st0 st2 st3">Payscape</text>
+	<rect x="348.6" y="379.1" class="st4" width="227.5" height="71.5"/>
+	<text transform="matrix(1 0 0 1 348.6451 415.3849)" class="st2 st5">Login</text>
+	<text transform="matrix(1 0 0 1 348.6451 525.8584)" class="st6 st7">User ID:</text>
+	<text transform="matrix(1 0 0 1 348.6448 639.8059)" class="st6 st7">Password:</text>
+	<rect x="543.1" y="481.8" class="st8" width="398.1" height="62.4"/>
+	<rect x="543.1" y="602.6" class="st8" width="398.1" height="62.4"/>
+	<text transform="matrix(1 0 0 1 539.4341 702.8058)" class="st6 st9">Forgot Password?</text>
+	<path class="st1" d="M840.2,861.7H616.3c-6,0-10.9-4.9-10.9-10.9v-40.3c0-6,4.9-10.9,10.9-10.9h223.9c6,0,10.9,4.9,10.9,10.9v40.3
+		C851.1,856.8,846.2,861.7,840.2,861.7z"/>
+	<text transform="matrix(1 0 0 1 656.0079 841.8356)" class="st0 st10 st7">SIGN UP</text>
+</g>
+<g id="Helpbot">
+</g>
+<g id="Layer_3">
+</g>
+</svg>

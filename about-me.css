@@ -1,0 +1,804 @@
+/* Nav bar */ 
+
+a:link {
+    text-decoration: none;
+}
+a:visited {    
+    text-decoration: none;
+}
+
+a:active {    
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #F0A160 !important;
+    
+}
+
+/* gray nav scroll 
+
+nav.scrolled {
+    background: #A7A9AC !important;
+}
+*/
+/* red nav sroll 
+
+nav.scrolled {
+    background: #D15E5E !important;
+}
+*/
+/* light-orange scroll */
+
+nav.scrolled {
+    background: #FFA969 !important;
+}
+
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #C05050;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url(hamburger_menu.svg);
+}
+
+.main-nav-link {
+    padding: 0px 200px 0px 200px;
+}
+.navbar-brand {
+    width: 220px;
+    margin-left: -20px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+.show > .dropdown-toggle:focus {
+    color: #C05050 !important;
+}
+
+.dropwdown-menu {
+    border-color: none;
+}
+
+.dropdown-menu.show {
+    margin-top: 0px;
+    padding: 0px;
+
+}
+
+
+.dropdown-item {
+    color: #C05050;
+}
+
+.dropdown-item:hover {
+    color: white; 
+    background-color: #C05050;
+}
+
+.project-header {
+    min-width: 100%;
+    margin-top: 160px; 
+    background-color: #6D95B7;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.header-title {
+    font-size: 25px;
+    padding-left: 50px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+#about-me-pic {
+    width: 100%;
+    transform: scale(.8,.8);
+    padding-top: 18px;
+ 
+}
+
+.profile-and-description-mobile {
+        display: none;
+    }
+
+.about-me-text {
+    color: black; 
+    font-size: 18px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    
+}
+
+.text-padding {
+    padding-right: 60px;
+}
+
+.facts {
+    background: #F0A160;
+    margin-left: 100px; 
+    width: 10%;
+    padding-bottom: 0px;
+    margin-right: -20px;
+}
+
+#fun-fact-title {
+    color: white;
+    padding: 0px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#icon-padding {
+    padding-left: 80px;
+    margin-top: -50px;
+    
+}
+
+.icon {
+    transform: scale(.7,.7);
+}
+
+#padding-adjust {
+    margin-left: -10px;
+}
+
+
+.facts-points {
+    margin-left: 120px;
+    font-size: 17px;
+}
+
+.fact-text {
+    color: black;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+#fact-point-space {
+    margin-top: 40px;
+}
+
+.fact-container {
+    margin-bottom: 300px;
+}
+
+.mobile-icons {
+    display: none;
+}
+
+#link {
+    color:#6D95B7;
+    text-decoration: underline;
+    font-size: 13px;
+
+}
+
+.icon-padding {
+    margin-left: 50px;
+}
+
+.footer {
+    margin-top: 200px;
+    background: #F0A160;
+    width: 100%;
+    height: auto;
+}
+
+.made-by-me {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.heart {
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: -40px;
+    margin-top: -40px;
+}
+#heart {
+    transform: scale(.2,.2);
+    margin-left: -90px;
+    margin-right: -50px;
+    margin-top: -8px;
+}
+
+@media screen and (min-width:2560px) {
+    #logo {
+        width: 110%;
+    }
+    a {
+        font-size: 20px;
+    }
+    
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 120px;
+        padding-left: 120px;
+    }
+    
+    .project-header {
+        margin-top: 180px;
+    }
+    
+    .header-title {
+        font-size: 28px;
+    }
+    .about-me-text {
+        margin-top: 95px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .text-padding {
+        margin-bottom: -200px;
+    
+    }
+    
+    .facts {
+        margin-left: -50px;
+    }
+    
+    .facts-points {
+        margin-left: -30px;
+        font-size: 19px;
+        
+    }
+    
+    #icon-padding {
+        padding-left: 95px;
+    }
+        
+}
+
+@media screen and (max-width:1440px) {
+    a {
+        font-size: 16px;
+        
+    }
+    
+    .header-title {
+        font-size: 23px;
+    }
+    
+    #about-me-pic {
+        transform: scale(.9,.9);
+        margin-top: 40px;
+        
+    }
+    
+    .about-me-text {
+        font-size: 15px;
+    }
+    
+    .facts {
+        margin-left: 220px;
+    }
+    
+    #fun-fact-title {
+        padding-top: 20px;
+        font-size: 17px;
+    }
+    
+    .fact-text {
+        margin-left: 120px;
+        font-size: 15px;
+    }
+    
+    #icon-padding {
+        margin-top: -10px
+    }
+    
+    .icon {
+        transform: scale(1,1);
+    }
+    
+    
+}
+
+@media screen and (max-width:1280px) {
+    #logo {
+        width: 80%;
+    }
+    a {
+        font-size: 14px;
+    }
+    
+    .project-header {
+        margin-top: 130px;
+    }
+    
+    .header-title {
+        font-size: 20px;
+    }
+    
+    #about-me-pic {
+        transform: scale(1.05,1.05);
+        margin-top: 70px;
+    }
+    
+    .about-me-text {
+        padding-left: 5px;
+        font-size: 14px;
+        margin-top: 80px;
+    }
+    
+   
+    
+    #icon-padding {
+        margin-top: 35px;
+        padding-left: 50px;
+    }
+    
+    .facts {
+        margin-left: 270px;
+    }
+    
+    #fun-fact-title {
+        font-size: 14px;
+
+    }
+    
+    .fact-text {
+        font-size: 14px;
+        margin-left: 170px;
+    }
+
+    
+    .icon {
+        transform: scale(1.2,1.2);    
+    }
+    
+    .made-by-me {
+        font-size: 15px;
+        
+    }
+}
+
+@media screen and (max-width:1199.98px) and (orientation:landscape) {
+    #about-me-pic {
+        transform: scale(1.10,1.10);
+        margin-top: 80px;
+        padding-left: 5px;
+    
+    }
+    
+    .about-me-text {
+        padding-left: 15px;
+    }
+    
+    #icon-padding {
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+    
+    #linked-in-padding {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .icon {
+        transform: scale(1.5,1.5);
+    }
+    
+    .facts {
+        margin-left: 205px;
+    }
+    
+    .fact-text {
+        margin-left: 110px;
+    }
+    
+    .made-by-me {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:991.98px) and (orientation:landscape) {
+     #logo {
+        width: 70%;
+    }
+    
+    a {
+        font-size: 13px;
+    }
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+     .project-header {
+        margin-top: 130px;
+        width: auto;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .about-me-text, #about-me-pic {
+        margin-top: 40px;
+    }
+    
+    #about-me-pic {
+        padding-left: 10px;
+    }
+    
+    #icon-padding {
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .icon {
+        transform: scale(1.7,1.7);
+    }
+    
+    .facts {
+        margin-left: 140px;
+    }
+    
+    .facts-points {
+        margin-left: 20px;
+
+    }
+    
+}
+
+@media screen and (max-width:767.98px) and (orientation:landscape)  {
+      .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    a {
+        font-size: 12px;
+    }
+    
+    
+    .icon {
+        transform: scale(.9,.9);
+    }
+    
+    #icon-padding {
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+    
+    #linked-in-padding {
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+    
+    #about-me-pic {
+        margin-top: 30px;
+    }
+    
+    .about-me-text, .fact-text, #fun-fact-title {
+        font-size: 13px;
+    }
+    
+    .facts {
+        margin-left: 110px;
+        width: 100%;
+    }
+    
+    .made-by-me {
+        font-size: 13px;
+    }
+    
+    
+
+}
+
+@media screen and (max-width:575.98px) and (orientation:landscape) {
+    
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    #logo {
+        width: 65%;
+    }
+    
+    
+    .icon {
+        transform: scale(1.5,1.5);
+    }
+    
+    #icon-padding {
+        margin-top: 20px;
+        
+    }
+    
+    .header-title {
+        margin-left: -30px;
+    }
+    
+    #fun-fact-title {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .facts {
+        margin-left: 170px;
+    }
+    
+    .fact-text {
+        margin-right: 30px;
+    }
+    
+    #about-me-pic {
+        transform: scale(1.3, 1.3);
+        margin-top: 40px;
+    }
+    
+    #icon-padding {
+        margin-top: 40px;
+    }
+    
+    .made-by-me {
+        margin-right: -50px;
+        font-size: 13px;
+    }
+    
+    #heart {
+        transform: scale()
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:1199.98px) and (orientation:portrait) {
+    .facts {
+        margin-left: 200px;
+    }
+    
+    .fact-text {
+        margin-left: 90px;
+    }
+    
+    #about-me-pic {
+        margin-top: 85px;
+    }
+    
+    
+}
+
+@media screen and (max-width:991.98px) and (orientation:portrait) {
+    .nav {
+        padding-left: 75px;
+        padding-right: 75px;
+    } 
+    
+    a {
+        font-size: 13px;
+    }
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    
+    #logo {
+        margin-left: -60px;
+        width: 95%;
+    }
+    
+    #about-me-pic {
+        margin-top: 75px;
+    }
+    
+    .icon {
+        transform: scale(1.8,1.8);
+    }
+    
+    .facts {
+        margin-left: 130px;
+    }
+    
+    .facts-points {
+        margin-left: 40px;
+        
+    }
+    
+    
+}
+ 
+@media screen and (max-width:767.98px) and (orientation:portrait) {
+    #logo {
+        width: 70%;
+    }
+    a {
+        font-size: 11px;
+        
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .nav {
+        padding-right: 20px;
+    }
+    
+    #about-me-pic {
+        margin-top: 65px;
+    }
+    
+    #icon-padding {
+        padding-left: 10px;
+    }
+    
+    .icon {
+        transform: scale(1,1);
+    }
+    
+    #linked-in-padding {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+    .facts {
+        margin-left: 100px;
+    }
+    
+    .fact-text {
+        margin-left: 60px;
+    }
+    
+    
+}
+
+@media screen and (max-width:575.98px) and (orientation:portrait) {
+    .header-title {
+        padding-left: 10px;
+    }
+    
+    .profile-and-description {
+        display: none;
+    }
+    
+    .profile-and-description-mobile {
+        display: block;
+    }
+    
+    .about-me-text {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 50px;
+        
+    }
+    
+    #about-me-pic {
+        margin-top: 20px;
+    }
+    
+    .fact-text {
+        margin-left: 40px;
+    }
+    
+    .mobile-icons {
+        display: contents;
+   
+        
+    }
+    
+    .icon-padding {
+        margin-top: 200px;
+        margin-bottom: -150px;
+        margin-left: 100px;
+    }
+    
+    .footer-icons {
+        transform: scale(.8,.8);
+        width: 60%;
+        margin-left: -20px
+    }
+    
+    .icon-spacing {
+        margin-left: -70px;
+        margin-right: 40px;
+    }
+   
+    
+    .made-by-me {
+        margin-left: -50px;
+        font-size: 13px;
+        text-align: center;
+        margin-right: -60px;
+    }
+    
+    #resume-padding {
+        width: 70%;
+        margin-right: 40px;
+        margin-top: -2px;
+        
+    }
+    
+    #heart {
+        transform: scale(.15,.15);
+    }
+    
+    .heart {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    .facts-points {
+        margin-left: 0px;
+        padding-right: 20px;
+    }
+    
+    .facts {
+        margin-left: 30px;
+        
+    }
+    
+}
+
+@media screen and (max-width:414px) and (orientation:portrait) {
+    .header-title {
+        font-size: 18px;
+    }
+    
+     
+     .footer-icons {
+        transform: scale(1.2,1.2);
+    }
+    
+     .icon-spacing {
+        margin-left: -60px;
+        margin-right: 50px;
+    }
+    
+    #resume-padding {
+        width: 70%;
+        margin-right: 48px;
+        margin-top: -2px;
+        
+    }
+
+    
+  
+    
+}
+
+@media screen and (max-width:375px) and (orientation:portrait) {
+    .made-by-me {
+        margin-right: -70px;
+    }
+    
+    #resume-padding {
+        margin-top: 2px;
+    }    
+}
+
+
+
