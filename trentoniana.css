@@ -1,4 +1,5 @@
-/* Nav bar */
+/* Nav bar */ 
+
 a:link {
     text-decoration: none;
 }
@@ -20,6 +21,18 @@ nav {
     
 }
 
+/* gray nav scroll 
+
+nav.scrolled {
+    background: #A7A9AC !important;
+}
+*/
+/* red nav sroll 
+
+nav.scrolled {
+    background: #D15E5E !important;
+}
+*/
 /* light-orange scroll */
 
 nav.scrolled {
@@ -51,6 +64,10 @@ li a:hover {
 .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 70px;
     padding-left: 70px;
+}
+
+.nav {
+    width: 100%;
 }
 
 
