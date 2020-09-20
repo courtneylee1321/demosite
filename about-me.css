@@ -42,7 +42,7 @@ nav.scrolled {
 
 a {
     color: white;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 li a:hover {
@@ -58,14 +58,16 @@ li a:hover {
     padding: 0px 200px 0px 200px;
 }
 .navbar-brand {
-    width: 220px;
+    width: 140px;
     margin-left: -20px;
 }
 .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 70px;
     padding-left: 70px;
 }
-
+#logo {
+    width: 95%;
+}
 
 .show > .dropdown-toggle:focus {
     color: #C05050 !important;
@@ -92,8 +94,7 @@ li a:hover {
 }
 
 .project-header {
-    min-width: 100%;
-    margin-top: 160px; 
+    margin-top: 100px; 
     background-color: #6D95B7;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -226,12 +227,12 @@ li a:hover {
     margin-top: -8px;
 }
 
-@media screen and (min-width:2560px) {
+@media screen and (min-width:2560px) and (orientation:landscape) {
     #logo {
-        width: 110%;
+        width: 100%;
     }
     a {
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -240,7 +241,7 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 180px;
+        margin-top: 110px;
     }
     
     .header-title {
@@ -274,14 +275,22 @@ li a:hover {
         
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1440px) and (orientation: landscape) {
+    #logo {
+        width: 80%;
+    }
+    
     a {
-        font-size: 16px;
+        font-size: 11px;
         
     }
     
+    .project-header {
+        margin-top: 90px;
+    }
+    
     .header-title {
-        font-size: 23px;
+        font-size: 20px;
     }
     
     #about-me-pic {
@@ -319,18 +328,11 @@ li a:hover {
     
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1280px) and (orientation:landscape) {
     #logo {
-        width: 80%;
+        width: 75%;
     }
-    a {
-        font-size: 14px;
-    }
-    
-    .project-header {
-        margin-top: 130px;
-    }
-    
+
     .header-title {
         font-size: 20px;
     }
@@ -432,7 +434,7 @@ li a:hover {
     }
     
      .project-header {
-        margin-top: 130px;
+        margin-top: 85px;
         width: auto;
         padding-top: 30px;
         padding-bottom: 5px;

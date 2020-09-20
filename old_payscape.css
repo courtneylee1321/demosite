@@ -1,0 +1,1972 @@
+/* Nav bar */ 
+
+a:link {
+    text-decoration: none;
+}
+a:visited {    
+    text-decoration: none;
+}
+
+a:active {    
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #F0A160 !important;
+    
+}
+
+
+nav.scrolled {
+    background: #FFA969 !important;
+}
+
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #C05050;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url(hamburger_menu.svg);
+}
+
+.main-nav-link {
+    padding: 0px 200px 0px 200px;
+}
+.navbar-brand {
+    width: 220px;
+    margin-left: -20px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+.show > .dropdown-toggle:focus {
+    color: #C05050 !important;
+}
+
+.dropwdown-menu {
+    border-color: none;
+}
+
+.dropdown-menu.show {
+    margin-top: 0px;
+    padding: 0px;
+
+}
+
+
+.dropdown-item {
+    color: #C05050;
+}
+
+.dropdown-item:hover {
+    color: white; 
+    background-color: #C05050;
+}
+
+/* Payscape page */
+
+.project-header {
+    min-width: 100%;
+    margin-top: 160px; 
+    background-color: #6D95B7;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.project-info {
+    color: white; 
+}
+
+
+.project-intro {
+    max-width: auto;
+    margin-top: 60px; 
+    height: 350px;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+}
+
+.project-intro-mobile {
+    display: none;
+}
+
+.note {
+    padding: 5px 0px 20px 50px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+        
+    
+}
+.caption-margin {
+    margin-top: -10px;
+}
+
+.header-title {
+    font-size: 25px;
+    padding-left: 50px;
+    font-weight: 600;
+    
+}
+
+.header-caption {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.header-duration-title {
+    font-size: 22px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+.header-duration {
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+
+.proj-titles {
+    color: #F0A160;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.proj-details {
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.icon-size-adjust {
+    transform: scale(.6,.6);
+    margin-top: -60px;
+}
+
+.icon-size-adjust-2 {
+    transform: scale(.7,.7);
+    margin-top: -60px;
+}
+
+
+.icon-title {
+    padding-left: 0px;
+}
+
+.icon {
+    padding-right: 0px;
+    margin-right: -15px;
+}
+
+.padding-left {
+    padding-left: 200px;
+    
+}
+
+.row {
+    margin-right: 0px;
+}
+/* Process */
+
+.process-header {
+    background: #F0A160;
+    margin-top: 165px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    height: 100px;
+    
+}
+
+
+.step-indent {
+    padding-left: 200px;
+    margin-top: 100px;
+}
+
+    
+#step1-indent {
+    padding-left: 200px;
+        
+}
+
+.step-indent-2 {
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 200px;
+}
+
+#user-persona {
+    margin-top: 120px;
+    padding-left: 100px;
+}
+
+#user-persona-box {
+    border-style: solid;
+    border-color: black; 
+    margin: auto;
+    width: 50%;
+}
+
+#user-persona-info {
+    padding: 40px 40px 0px 40px;
+    font-size: 17px;
+}
+
+#listing-indent {
+    padding: 0px 40px 40px 55px;
+}
+
+.process-text {
+    font-size: 18px;
+}
+
+.next-step {
+    margin-top: 120px;
+    padding-left: 100px;
+
+}
+
+.step-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.step-margin {
+    padding-left: 0px;
+}
+
+.text-bold {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+#image-resize-key {
+    width: 100%;
+    
+    transform: scale(.7,.7);
+}
+#image-resize-userflows {
+    width: 100%;
+    transform: scale(1.1,1.1);
+    padding-left: 70px;
+    margin-top: -30px;
+}
+#image-resize-userflows-2 {
+    width: 100%; 
+    padding-left: -20px;
+    margin-top: -30px
+}
+
+.userflow-sketch {
+    width: 100%;
+    transform: scale(.9,.9);
+}
+
+#margin-key {
+    margin-top: 90px;
+}
+#key {
+    margin-top: 55px;
+    margin-left: 70px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pic-caption {
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#card-caption {
+    margin-top: -60px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#card-caption-2 {
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+.step-spacing {
+    margin-top: 200px;
+    padding-left: 100px;
+    
+}
+.components-notes {
+    width: 60%;
+}
+.components-caption { 
+    text-align: center;
+    margin-left: -290px;
+    padding-top: 20px
+}
+
+#nested-table-sketch {
+    margin-left: 70px;
+    width: 100%;
+}
+#nested-table-sketch-caption {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nested-table {
+    width: 100%;
+}
+
+#card-component-sketch {
+    width: 120%;
+}
+
+#card-component-1 {
+    transform: scale(.8,.8);
+    padding-left: 80px;
+}
+
+.symbols {
+    width: 100%;
+}
+
+.pro-cons-spacer {
+    margin-right: -200px;
+}
+
+
+.pro-con-symbols {
+    width: 100%;
+    transform: scale(.3,.3)
+}
+
+.cons-space {
+    margin-left: 180px;
+}
+
+
+.pro-cons-container {
+    margin-left: 170px;
+    padding-right: 150px;
+}
+
+.pro-cons-headers-mobile {
+    display: none;
+}
+
+.pro-cons-container-mobile {
+    display: none;
+}
+
+
+.pro-con-points {
+    padding-top: 40px;
+}
+
+.cons-margin {
+    margin-left: 100px;
+}
+
+.con-extra {
+    margin-right: -30px;
+    margin-left: 832px;
+}
+
+.point-3-con {
+    margin-left: 32px;
+    
+}
+
+/* Footer */
+
+.footer-icons {
+    width: 100%;
+    transform: scale(.5,.5);
+    margin-left: -20px;
+}
+
+.icon-padding {
+    margin-top: 200px;
+    padding-left: 45px;
+}
+
+.icon-spacing {
+    margin-left: -60px;
+} 
+#resume-padding {
+    width: 70%;
+    margin-top: -7px;
+}
+
+.footer {
+    background: #F0A160;
+    width: 100%;
+    height: auto;
+}
+
+.made-by-me {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.heart {
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: -40px;
+    margin-top: -40px;
+}
+#heart {
+    transform: scale(.2,.2);
+    margin-left: -90px;
+    margin-right: -50px;
+    margin-top: -8px;
+}
+
+
+
+@media screen and (min-width:2560px) {
+    
+    #logo {
+        width: 110%;
+    }
+    
+    a {
+        font-size: 20px;
+    }
+    
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 120px;
+        padding-left: 120px;
+    }
+    
+    .proj-titles {
+        font-size: 22px;
+    }
+    
+    .proj-details {
+        font-size: 17px;
+    }
+    
+    .icon-size-adjust {
+        transform: scale(.55,.55);
+        margin-top: -85px;
+    }
+    
+    .step-title {
+    font-size: 22px;
+    }
+    
+    .process-header {
+        margin-top: 75px;
+        
+    }
+    
+    #image-resize-userflows-2 {
+        margin-left: -30px;
+    }
+    
+    
+}
+
+@media screen and (max-width:1440px) and (orientation:landscape) {
+    a {
+        font-size: 16px;
+        
+    }
+    
+    .icon-size-adjust {
+        margin-top: -40px;
+    }
+    
+     .header-title {
+        font-size: 23px;
+    }
+    
+    .header-caption {
+        font-size: 18px;
+    }
+    
+    .proj-titles {
+        font-size: 18px;
+    }
+    
+    .proj-details {
+        font-size: 16px;
+    }
+    
+    #image-resize-userflows-2 {
+        margin-left: 20px;
+    }
+    
+    #nested-table-sketch {
+        margin-left: 0px;
+    }
+    
+    .components-caption {
+        margin-left: -200px;
+        
+    }
+    
+    #card-component-1 {
+        padding-left: 0px;
+        margin-left: -100px;
+    }
+    
+    #digital-cards-5 {
+        padding-left: 0px;
+    }
+    
+    #card-caption-2 {
+        padding-left: 200px;
+        
+    }
+    
+    .pro-con-list {
+        margin-left: -150px;
+    }
+    
+    .con-extra {
+        margin-left: 630px;
+        
+    }
+    
+}
+
+@media screen and (max-width:1280px) and (orientation:landscape) {
+      #logo {
+        width: 80%;
+    }
+    
+    a {
+        font-size: 14px;
+    }
+    
+    .proj-details {
+        font-size: 15px;
+    }
+    
+    .icon-size-adjust {
+        margin-top: -35px;
+        padding-right: 10px;
+    } 
+    
+    .project-header {
+        margin-top: 140px;
+    }
+    
+    #step1-indent {
+        padding-left: 100px;
+    }
+    
+    .step-title {
+        font-size: 18px;
+    }
+    
+    .process-text, .pro-con-points {
+        font-size: 15px;
+    
+    }
+
+    #user-persona-info {
+        font-size: 14px;
+    }
+    
+    .next-step, .text-bold {
+        padding-left: 0px;
+    }
+    
+    #image-resize-userflows {
+        padding-left: 30px;
+    }
+    
+    #image-resize-userflows-2 {
+        margin-left: -20px;
+    }
+    
+    .pic-caption, .components-caption, #nested-table-sketch-caption, #card-caption {
+        font-size: 13px;
+    }
+    
+    .components-caption {
+        margin-left: -150px
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.85,.85);
+        margin-left: -150px;
+        margin-top: -90px;
+    }
+    
+    #card-component-sketch {
+        transform: scale(1.2,1.2);
+    }
+    
+  
+    
+    #card-sketch-padding {
+        padding-top: 100px;
+    }
+    
+    #card-image-adjust {
+        padding-left: 0px
+    }
+    
+    #digital-cards-5 {
+        margin-left: -150px;
+        transform: scale(.9,.9);
+    }
+    
+    .symbols {
+        transform: scale(1.2,1.2);
+    }
+    
+    .pro-cons-container {
+        padding-right: 65px;
+        margin-left: 130px;
+        
+    }
+    
+    .cons-margin {
+        margin-left: 40px;
+        
+    }
+    
+    .pro-con-symbols {
+        transform: scale(.5,.5);
+        margin-top: 20px;
+    }
+    
+    .pro-cons-spacer {
+        margin-right: -100px;
+        margin-left: -50px;
+    }
+    
+    .cons-space {
+        margin-left: 90px;
+    }
+    
+    .con-extra {
+        margin-left: 540px;
+    }
+    
+    
+}
+
+@media screen and (max-width:1199.98px) and (orientation:landscape) {
+    .step-indent, .step-indent-2 {
+        padding-left: 150px;
+    }
+    
+    .pro-cons-spacer {
+        margin-left: 0px;
+    }
+    
+    .con-extra {
+        margin-left: 505px;
+    }
+    
+    .project-header {
+        padding-bottom: 180px;
+    }
+    
+    #card-component-1 {
+        transform: scale(.7,.7);
+    }
+    
+    #card-component-2 {
+        transform: scale(.9,.9);
+    }
+    
+    .pic-padding {
+        padding: 20px;
+    }
+    
+    .footer-icons {
+        transform: scale(.35,.35);
+    }
+    
+}
+
+@media screen and (max-width:991.98px) and (orientation:landscape) {
+     #logo {
+        width: 70%;
+    }
+    
+    a {
+        font-size: 13px;
+    }
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+      .project-header {
+        margin-top: 130px;
+        width: auto;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+     .header-title, .header-duration-title {
+        font-size: 18px;
+    }
+    
+    
+    .header-duration, .proj-titles, .header-caption {
+        font-size: 16px;
+    }
+    
+    .proj-details {
+        font-size: 14px;
+    }
+    
+     .icon-size-adjust {
+        transform: scale(1,1);
+        margin-top: -12px;
+        margin-right: 20px;
+    }
+    
+    .project-intro {
+        margin-top: 20px;
+    }
+    
+    .process-header {
+        margin-top: 50px;
+    }
+    
+     .step-title {
+        font-size: 18px;
+    }
+    
+    .process-text, .pro-con-points {
+        font-size: 15px;
+        
+    }
+    
+    #image-resize-userflows {
+        transform: scale(1.3,1.3);
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    
+    #image-resize-userflows-2 {
+        transform: scale(1.3,1.3);
+        padding-left: 55px;
+        padding-top: 20px;
+    }
+    
+    .userflow-sketch {
+        transform: scale(1.2,1.2);
+        padding-top: 20px;
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.7,.7);
+        margin-left: -350px;
+        margin-top: -200px;
+    }
+    
+    .nested-table {
+        padding-right: 50px;
+    }
+    
+    #card-component-1 {
+        transform: scale(.6,.6);
+        margin-left: -150px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.75,.75);
+        margin-left: -100px;
+    }
+    
+    #card-caption-2 {
+        margin-top: -40px;
+    }
+    
+    .symbols {
+        padding-right: 20px;
+    }
+
+    .con-extra  {
+        margin-left: 420px;
+    }
+    
+    
+    .footer-icons {
+        transform: scale(.2,.2);
+    }
+    
+    .icon-spacing, #resume-padding {
+        margin-right: -150px;
+    }
+    
+    #resume-padding {
+        margin-top: -13px;
+    }
+    
+    .icon-padding {
+        margin-right: 100px;
+    }
+    .made-by-me {
+        font-size: 14px;
+    }
+   
+
+    
+    
+    
+}
+
+@media screen and (max-width:767.98px) and (orientation:landscape) {
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    a {
+        font-size: 12px;
+    }
+    
+    .header-title, .header-caption {
+        margin-left: -30px;
+    }
+    
+    .header-title, .header-duration-title {
+        font-weight: 500;
+        
+    }
+    
+    .header-caption, .header-duration {
+        font-size: 14px;
+    }
+    
+    .note {
+        font-size: 12px;
+        margin-left: -30px;
+    }
+    
+    .step-title {
+        font-size: 17px;
+    }
+    
+    .process-text, #user-persona-box, .pro-con-points, .text-bold {
+        font-size: 14px; 
+    }
+    
+    .pic-caption, .components-caption {
+        font-size: 13px;
+    }
+    
+    .components-caption {
+        margin-left: -90px;
+    }
+    
+    
+    .icon-size-adjust {
+        transform: scale(1.5,1.5);
+        padding-right: 20px;
+        margin-top: 2px;
+    }
+    
+    #step1-indent {
+        padding-left: 0px;
+    }
+    
+    .step-indent {
+        padding-left: 100px;
+    }
+    
+    .step-indent-2 {
+        padding-left: 70px;
+    }
+    
+    #margin-key {
+        transform: scale(1.2,1.2)
+    }
+    
+    #image-resize-userflows {
+        transform: scale(1.45,1.45);
+    }
+    
+    #image-resize-userflows-2 { 
+        transform: scale(1.5,1.5);
+        margin-left: -5px;
+        padding-top: 20px;
+    }
+    
+    .userflow-sketch {
+        transform: scale(1.1,1.1);
+        margin-left: 25px;
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.55,.55);
+        margin-left: -450px;
+        margin-top: -330px;
+    }
+    
+    #nested-table-sketch-caption {
+        margin-top: -280px;
+    }
+    
+    .nested-table {
+        transform: scale(1.1,1.1);
+    }
+    
+    #card-component-1 {
+        margin-left: -220px;
+        margin-top: -100px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.6,.6);
+        margin-left: -200px;
+        margin-top: -150px;
+    }
+    
+    #card-caption {
+        margin-top: -120px;
+    }
+    
+    .con-extra {
+        margin-left: 325px;
+    }
+    
+    .symbols {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .pro-con-symbols {
+        transform: scale(.9,.9);
+    }
+    
+    .pro-cons-container {
+        margin-left: 60px;
+    }
+    
+    .pro-cons-spacer {
+        margin-left: -15px;
+    }
+    
+    
+}
+
+@media screen and (max-width:765px) and (orientation:landscape) {
+    .project-intro {
+        display: none;
+    }
+    
+    .project-intro-mobile {
+        display: block;
+        margin-top: 50px;
+    }
+    
+    .icon-size-adjust {
+        transform: scale(.6,.6);
+        margin-top: -38px;
+        
+    }
+    
+    #proj-intro-padding {
+        margin-top: 50px;
+    }
+    
+    
+}
+
+@media screen and (max-width:575.98px) and (orientation:landscape) {
+      .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    #logo {
+        width: 65%;
+    }
+    
+    .note {
+        font-size: 11px;
+        
+    }
+    
+    .icon-size-adjust {
+        margin-top: -20px;
+        transform: scale(.8,.8);
+    }
+    
+    .icon-spacing, #resume-padding {
+        margin-right: -50px;
+    }
+    
+    #image-resize-userflows-2 {
+        padding-top: 30px;
+    }
+    
+    
+    #resume-padding {
+        margin-top: -8px;
+    }
+    
+    .icon-padding {
+        margin-left: 60px;
+    }
+    
+     .footer-icons {
+        transform: scale(.3,.3);
+    }
+    
+    
+    
+    .step-title {
+        font-size: 16px;
+    }
+    
+    .process-text, .pro-con-points, .bold, .pro-cons-spacer, .cons-space {
+        font-size: 13px;
+        
+    }
+    
+    .components-caption, .pic-caption, #nested-table-sketch-caption, #card-caption, #card-caption-2 {
+        font-size: 10px;
+    }
+    
+    .components-caption {
+        margin-left: -50px;
+        
+    }
+    
+    .components-notes {
+        padding-right: 50px;
+    }
+    
+    .components-notes, #image-resize-userflows, #image-resize-userflows-2, .userflow-sketch , .nested-table {
+        width: 100%;
+    }
+    
+    .step-indent, .next-step {
+        margin-top: 50px;
+    }
+    
+    #nested-table-sketch {
+        margin-left: -620px;
+        transform: scale(.4,.4);
+        margin-top: -445px;
+    }
+    
+    #nested-table-sketch-caption {
+        margin-top: -370px;
+    }
+    
+    #card-component-1 {
+        margin-left: -330px;
+        transform: scale(.45,.45);
+        margin-top: -150px;
+    }
+    
+    #card-caption, #card-caption-2 {
+        margin-top: -170px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.45,.45);
+        margin-left: -290px;
+    }
+    
+    #card-caption-2 {
+        margin-top: -120px;
+    }
+    
+    .step-indent {
+        padding-left: 50px;
+    }
+    
+    #step1-indent {
+        margin-left: -55px;
+    }
+    
+    .step-indent-2 {
+        padding-left: 50px;
+    }
+    
+    .pro-cons-container {
+        margin-left: 40px;
+        padding-right: 80px;
+    }
+    
+    .con-extra {
+        margin-left: 240px;
+    }
+    
+    .pro-con-points {
+        padding-top: 15px;
+    }
+    
+    .pro-con-symbols {
+        transform: scale(2.5,2.5);
+    }
+    
+    
+    
+    
+}
+
+
+@media screen and (max-width:1199.98px) and (orientation:portrait) {
+    .icon-size-adjust {
+        margin-top: -30px;
+        margin-right: 5px;
+    }
+
+
+    .project-header {
+        margin-top: 180px;
+        padding-bottom: 180px;
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.9,.9);
+        margin-left: -170px;
+        margin-top: -100px;
+    }
+    
+    .components-caption {
+        margin-left: -150px
+    }
+    
+    #card-component-1 {
+        padding-left: 0px;
+        margin-left: -250px;
+    }
+    
+    #card-caption, #card-caption-2 {
+        margin-left: -200px;
+    }
+    
+    #card-component-2 {
+        margin-left: -290px;
+        transform: scale(.8,.8);
+        
+        
+    }
+    
+    .step-indent, .step-indent-2 {
+        padding-left: 120px;
+    }
+    
+    .next-step {
+        padding-left: 40px;
+    }
+    
+    .pro-cons-container {
+        margin-left: 90px;
+        padding-right: 50px;
+    
+    }
+    
+    .cons-margin {
+        margin-left: 35px;
+        
+    }
+    
+    .pro-con-symbols {
+        transform: scale(.5,.5);
+        
+    }
+    
+    .con-extra {
+        margin-left: 508px;
+    }
+    
+    .pro-con-points {
+        padding-top: 20px;
+    }
+    
+    .point-3-con {
+        margin-left: 20px;
+    }
+    
+    .footer-icons {
+        transform: scale(.4,.4);
+        
+    }
+    .made-by-me {
+        font-size: 14px;
+    }
+   
+        
+    
+}
+
+@media screen and (max-width:991.98px) and (orientation:portrait) {
+     #logo {
+        width: 70%;
+    }
+    
+    a {
+        font-size: 13px;
+    }
+    
+     .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+      .project-header {
+        margin-top: 130px;
+        width: auto;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+     .header-title, .header-duration-title {
+        font-size: 18px;
+    }
+    
+    
+    .header-duration, .proj-titles, .header-caption {
+        font-size: 16px;
+    }
+    
+    .proj-details {
+        font-size: 14px;
+    }
+    
+     .icon-size-adjust {
+        transform: scale(1,1);
+        margin-top: -12px;
+        margin-right: 20px;
+    }
+    
+    .project-intro {
+        margin-top: 20px;
+    }
+    
+    .process-header {
+        margin-top: 50px;
+    }
+    
+     .step-title {
+        font-size: 18px;
+    }
+    
+    #step1-indent {
+        padding-left: 50px;
+    }
+    
+    .process-text, .pro-con-points {
+        font-size: 15px;
+        
+    }
+    
+    .process-text {
+        padding-right: 50px;
+    }
+    
+    #image-resize-userflows {
+        transform: scale(1.3,1.3);
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    
+    #image-resize-userflows-2 {
+        transform: scale(1.3,1.3);
+        padding-left: 55px;
+        padding-top: 20px;
+    }
+    
+    .userflow-sketch {
+        transform: scale(1.2,1.2);
+        padding-top: 20px;
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.7,.7);
+        margin-left: -350px;
+        margin-top: -200px;
+    }
+    
+    .nested-table {
+        padding-right: 50px;
+    }
+    
+    #card-component-1 {
+        transform: scale(.6,.6);
+        margin-left: -150px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.7,.7);
+        margin-left: -230px;
+    }
+    
+    #card-image-adjust, #digital-cards-5 {
+        margin-left: -150px;
+        
+    }
+    
+    #card-caption, #card-caption-2 {
+        padding-left: 180px;
+    }
+    
+    #card-caption-2 {
+        margin-top: -40px;
+    }
+    
+    .symbols {
+        padding-right: 20px;
+    }
+
+    .con-extra  {
+        margin-left: 420px;
+    }
+    
+    
+    .footer-icons {
+        transform: scale(.25,.25);
+    }
+    
+    .icon-spacing, #resume-padding {
+        margin-right: -150px;
+    }
+    
+    #resume-padding {
+        margin-top: -13px;
+    }
+    
+    .icon-padding {
+        margin-right: 100px;
+        margin-bottom: -50px;
+    }
+    
+    
+    
+  
+    
+}
+
+@media screen and (max-width:767.98px) and (orientation:portrait) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    a {
+        font-size: 12px;
+    }
+    
+    .header-title, .header-caption {
+        margin-left: -30px;
+    }
+    
+    .header-title, .header-duration-title {
+        font-weight: 500;
+        
+    }
+    
+    .header-caption, .header-duration {
+        font-size: 14px;
+    }
+    
+    .note {
+        font-size: 12px;
+        margin-left: -30px;
+    }
+    
+    .step-title {
+        font-size: 17px;
+    }
+    
+    .process-text, #user-persona-box, .pro-con-points, .text-bold {
+        font-size: 14px; 
+    }
+    
+    .pic-caption, .components-caption {
+        font-size: 13px;
+    }
+    
+    .components-caption {
+        margin-left: -90px;
+    }
+    
+    
+    .icon-size-adjust {
+        transform: scale(1.5,1.5);
+        padding-right: 20px;
+        margin-top: 2px;
+    }
+    
+    #step1-indent {
+        padding-left: 0px;
+    }
+    
+    .step-indent {
+        padding-left: 100px;
+    }
+    
+    .step-indent-2 {
+        padding-left: 70px;
+    }
+    
+    #margin-key {
+        transform: scale(1.2,1.2)
+    }
+    
+    #image-resize-userflows {
+        transform: scale(1.45,1.45);
+    }
+    
+    #image-resize-userflows-2 { 
+        transform: scale(1.5,1.5);
+        margin-left: -5px;
+        padding-top: 20px;
+    }
+    
+    .userflow-sketch {
+        transform: scale(1.1,1.1);
+        margin-left: 25px;
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.55,.55);
+        margin-left: -450px;
+        margin-top: -330px;
+    }
+    
+    #nested-table-sketch-caption {
+        margin-top: -280px;
+    }
+    
+    .nested-table {
+        transform: scale(1.1,1.1);
+    }
+    
+    #card-component-1 {
+        margin-left: -200px;
+        margin-top: -100px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.55,.55);
+        margin-left: -300px;
+        margin-top: -150px;
+        padding: 20px;
+    }
+    
+    #card-caption {
+        margin-top: -120px;
+    }
+    
+    #card-caption-2 {
+        margin-top: -100px;
+    }
+    
+    #card-caption, #card-caption-2 {
+        padding-left: 220px;
+    }
+    
+    .con-extra {
+        margin-left: 325px;
+    }
+    
+    .symbols {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .pro-con-symbols {
+        transform: scale(1,1);
+        padding-top: 18px;
+    }
+    
+    .pro-cons-container {
+        margin-left: 60px;
+    }
+    
+    .pro-cons-spacer {
+        margin-left: -15px;
+    }
+    
+    .point-3-con {
+        margin-left: 30px;
+    }
+    
+    .footer-icons {
+        transform: scale(.2,.2);
+    }
+    
+    .icon-spacing, #resume-padding {
+        margin-right: -135px;
+        
+    }
+    
+    .icon-padding {
+        margin-left: 18px;
+    }
+    
+    
+}
+
+@media screen and (max-width:765px) and (orientation:portrait) {
+     .project-intro {
+        display: none;
+    }
+    
+    .project-intro-mobile {
+        display: block;
+        margin-top: 50px;
+    }
+    
+    .icon-size-adjust {
+        transform: scale(.6,.6);
+        margin-top: -38px;
+        
+    }
+    
+    #proj-intro-padding {
+        margin-top: 50px;
+    }
+    
+    
+}
+ 
+@media screen and (max-width:575.98px) and (orientation:portrait) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    #logo {
+        width: 65%;
+    }
+    
+    .note {
+        font-size: 11px;
+        
+    }
+    
+    .icon-size-adjust {
+        margin-top: -20px;
+        transform: scale(.8,.8);
+    }
+    
+    .icon-spacing, #resume-padding {
+        margin-right: -50px;
+    }
+    
+    #image-resize-userflows-2 {
+        padding-top: 30px;
+    }
+    
+    .text-bold {
+        padding-left: 0px;
+    }
+    
+    
+    #resume-padding {
+        margin-top: -8px;
+    }
+    
+    .icon-padding {
+        margin-left: 60px;
+    }
+    
+     .footer-icons {
+        transform: scale(.3,.3);
+    }
+    
+   
+    
+    .step-title {
+        font-size: 16px;
+    }
+    
+    #margin-key {
+        margin-top: 20px;
+    }
+    
+    .process-text, .pro-con-points, .bold, .pro-cons-spacer, .cons-space, #user-persona-info, #listing-indent,  #key {
+        font-size: 13px;
+        
+    }
+    
+    .components-caption, .pic-caption, #nested-table-sketch-caption, #card-caption, #card-caption-2 {
+        font-size: 10px;
+    }
+    
+    .components-caption {
+        margin-left: -50px;
+        
+    }
+    
+    .components-notes {
+        padding-right: 50px;
+    }
+    
+    .components-notes, #image-resize-userflows, #image-resize-userflows-2, .userflow-sketch , .nested-table {
+        width: 100%;
+    }
+    
+    .step-indent, .next-step {
+        margin-top: 50px;
+    }
+    
+    #nested-table-sketch {
+        margin-left: -620px;
+        transform: scale(.4,.4);
+        margin-top: -445px;
+    }
+    
+    #nested-table-sketch-caption {
+        margin-top: -370px;
+    }
+    
+    #card-component-1 {
+        margin-left: -250px;
+        transform: scale(.45,.45);
+        margin-top: -150px;
+    }
+    
+    #card-caption, #card-caption-2 {
+        margin-top: -170px;
+        margin-left: -120px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.4,.4);
+        margin-left: -360px;
+    }
+    
+    #card-caption-2 {
+        margin-top: -120px;
+    }
+    
+    .step-indent {
+        padding-left: 50px;
+    }
+    
+    #step1-indent {
+        margin-left: -55px;
+    }
+    
+    .step-indent-2 {
+        padding-left: 50px;
+    }
+    
+    .pro-cons-container {
+        margin-left: 40px;
+        padding-right: 80px;
+    }
+    
+    .con-extra {
+        margin-left: 230px;
+    }
+    
+    .cons-margin {
+        margin-left: 30px;
+    }
+    
+    .pro-con-points {
+        padding-top: 25px;
+    }
+    
+    .point-3-con {
+        margin-left: 30px;
+    }
+    
+    .pro-con-symbols {
+        transform: scale(2.5,2.5);
+    }
+    
+    .icon-padding {
+        margin-bottom: -25px;
+    }
+    
+      
+    #heart {
+        transform: scale(.15,.15);
+    }
+    
+    .heart {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+}
+
+@media screen and (max-width:475px) and (orientation:portrait) {
+    .header-title , .header-duration-title {
+        font-size: 16px; 
+    }
+    
+    .header-title {
+        padding-top: 5px;
+    }
+    
+    .header-caption, .header-duration {
+        font-size: 12px;
+    }
+    
+    .icon-size-adjust {
+        margin-top: -15px;
+    }
+    .process-text {
+        padding: 3px;
+    }
+    #user-persona-info, #listing-indent, #key {
+        font-size: 13px;
+       
+    }
+    
+    #user-persona-info {
+        padding: 25px 25px 0px 25px
+        
+    }
+    
+    #listing-indent {
+        padding: 0px 25px 25px 40px 
+    }
+    
+     #margin-key {
+        margin-top: 5px;
+    }
+    
+    
+    #nested-table-sketch {
+        transform: scale(.35,.35);
+        margin-left: -680px;
+    }
+    
+    #card-component-sketch {
+        width: 180%;
+        margin-left: -100px;
+        
+        
+    }
+    
+    #card-component-1 {
+        transform: scale(.4,.4);
+        margin-left: -300px
+    }
+    
+    #card-component-2 {
+        transform: scale(.35,.35);
+        margin-left: -400px;
+        padding: 10px;
+    }
+    
+    #card-caption-2 {
+        margin-top: -160px;
+    }
+    
+    .cons-margin {
+        margin-left: 20px;
+    }
+    
+    .cons-space {
+        margin-left: 170px;
+    }
+    
+    .con-extra {
+        margin-left: 192px;
+        
+    }
+    
+    .pro-con-points {
+        padding-top: 65px;
+    }
+    
+    .point-3-con {
+        margin-left: 30px;
+        padding-right: 0px;
+        
+    }
+    
+    .pro-cons-container {
+        padding-bottom: 200px;
+        padding-right: 50px;
+        
+    }
+    
+    .pro-con-symbols {
+        transform: scale(7,7);
+    }
+    
+    .footer-icons {
+        transform: scale(.5,.5);
+    }
+    
+     .icon-spacing, #resume-padding {
+        margin-right: 5px;
+    }
+    
+    #resume-padding {
+        margin-top: -3px;
+    }
+    
+   
+    .icon-padding {
+        margin-left: 90px;
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media screen and (max-width:375px) and (orientation:portrait) {
+     .project-header {
+        padding-bottom: 180px;
+    } 
+    
+    .note {
+        font-size: 10px;
+    }
+    
+    .icon-size-adjust {
+        transform: scale(1.1,1.1);
+        margin-top: -3px;
+    }
+    
+    #image-resize-key {
+        transform: scale(.6,.6);
+    }
+    
+    #key {
+        margin-left: 10px;
+    }
+    
+    #image-resize-userflows, #image-resize-userflows-2 {
+        margin-left: -20px;
+        transform: scale(1.6,1.6);
+    }
+    
+    #image-resize-userflows-2 {
+        margin-left: -30px;
+    }
+    
+    #userflow-sketch {
+        transform: scale(1.2,1.2);
+    }
+    
+    .components-notes {
+        transform: scale(2,2);
+        margin-left: 30px;
+    }
+    
+    .components-caption {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    #card-component-1 {
+        transform: scale(.3,.3);
+        margin-left: -340px;
+    }
+    
+    #card-component-2 {
+        transform: scale(.25,.25);
+        margin-left: -445px;
+        margin-top: -250px;
+    }
+    
+    #card-caption, #card-caption-2 {
+        margin-top: -200px;
+    }
+    
+    #card-caption {
+        margin-top: -210px;
+    }
+    
+    #nested-table-sketch {
+        transform: scale(.25,.25);
+        margin-left: -750px;
+    }
+    
+    .process-text {
+        padding: 5px;
+        
+    }
+    
+    .pro-cons-container {
+        display: none;    
+    
+    }
+    
+    .pro-cons-headers {
+        display: none;
+    }
+    
+    .pro-cons-headers-mobile {
+        display: block;
+        margin-top: 20px;
+        margin-left: -18px;
+    
+    }
+
+    .pro-cons-containers-mobile {
+        display: block;
+    
+    }
+    
+    .mobile-text {
+        font-size: 13px;
+    }
+    
+    .pro-con-points {
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+    
+    .pro-cons-symbols {
+        padding-left: 65px;
+        
+    }
+    
+    .point-spacer {
+        margin-top: 20px;
+    }
+    
+    
+    .icon-spacing, #resume-padding {
+        margin-right: -40px;
+    }
+    
+    #resume-padding{
+        margin-top: 0px;
+    }
+    
+    .icon-padding {
+        padding-bottom: 30px;
+        padding-right: 10px;
+    }
+     .footer-icons {
+        transform: scale(1.3,1.3);
+    }
+    
+    
+}
+
