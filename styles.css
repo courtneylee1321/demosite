@@ -42,7 +42,7 @@ nav.scrolled {
 
 a {
     color: white;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 li a:hover {
@@ -58,7 +58,7 @@ li a:hover {
     padding: 0px 200px 0px 200px;
 }
 .navbar-brand {
-    width: 220px;
+    width: 140px;
     margin-left: -20px;
 }
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -66,10 +66,9 @@ li a:hover {
     padding-left: 70px;
 }
 
-.nav {
-    width: 100%;
+#logo {
+    width: 95%;
 }
-
 
 .show > .dropdown-toggle:focus {
     color: #C05050 !important;
@@ -98,17 +97,17 @@ li a:hover {
 /* Intro Header */  
 
 .intro {
-    margin-top: 160px; 
-    height: 300px;
+    margin-top: 100px; 
     background-color: #6D95B7;
     padding-top: 40px;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 .intro-row {
     color: white; 
-    font-size: 30px;
-    margin-left: 120px;
+    font-size: 25px;
+    margin-left: 130px;
 
 }
 
@@ -118,18 +117,16 @@ li a:hover {
 }
 .about-me {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 135px;
 }
 
 .sentences {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .blue-box {
-    background-color: #57758E;
-    margin-right: 160px;
-    padding-left: 2px;
+    color:#F1BA52;
 }
 
 .skills 
@@ -253,14 +250,23 @@ li a:hover {
 }
 .skill-title {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
 .card-spacing {
-    padding-right: 20px; 
-    padding-left: 20px;
+    padding-right: 25px; 
+    padding-left: 25px;
     
+}
+
+.scrolldown {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: black;
 }
 
 #arrow {
@@ -274,6 +280,10 @@ li a:hover {
 /* Work Cards */ 
 
 
+.work-grid {
+    margin-top: 100px;
+}
+
 #see-work {
     margin-top: 75px;
     text-align: center;
@@ -284,6 +294,11 @@ li a:hover {
     border-color: ##888889;
     background-color: white; 
     border-width: 3px;
+    
+}
+
+.card-img-top {
+    transform: scale(.8.8);
 }
 
 .work-title {
@@ -295,6 +310,7 @@ li a:hover {
 
 .work-body {
     padding: 25px;
+    font-size: 14px;
 }
 
 .see-work {
@@ -310,16 +326,66 @@ li a:hover {
 
 }
 
+.scroll-down {
+    height: 50px;
+    width: 30px; 
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transform:translateY(-200px);
+}
+
+.scroll-down:before, 
+.scroll-down:after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 3px solid #F0A160; 
+    border-radius: 2px;
+    height: 30px;
+    width: 30px; 
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent; 
+    border-left: transparent; 
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down:after {
+    top: 30%;
+    animation-delay: .3s
+}
+
+@keyframes scroll-down {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1; 
+    }
+    60% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 0; 
+        top: 90%;
+        
+    }
+}
+
 .go-work:hover{
     background-color: white;
     color: #F0A160;
     border: 1px solid #F0A160;
 }
 
+
 /* Footer */
 
 .footer-icons {
-    transform: scale(.45,.45);
+    transform: scale(.4,.4);
     margin-left: -20px;
 }
 
@@ -370,11 +436,11 @@ li a:hover {
 @media screen and (min-width:2560px) {
   
     #logo {
-        width: 110%;
+        width: 100%;
     } 
     
     a {
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .navbar-expand-sm .navbar-nav .nav-link{
@@ -383,9 +449,9 @@ li a:hover {
     }
     
     .intro {
-        margin-top: 180px;
         padding-top: 70px;
-        padding-bottom: 350px;
+        padding-bottom: 100px;
+        margin-top: 110px;
     }
     
     
@@ -394,13 +460,18 @@ li a:hover {
         
     }
     
+    .scroll-down {
+        transform:translateY(-300px);
+        left: 51%;
+    }
+    
     .intro-row, .about-me {
-        margin-left: 400px;
+        margin-left: 300px;
     }
     
     .intro-row {
         font-size: 30px;
-        margin-left: 380px;
+        margin-left: 200px;
     }
     .blue-box {
         margin-right: 160px;
@@ -437,16 +508,23 @@ li a:hover {
 
 /* Macbook Pro 15 in */
 @media screen and (max-width:1440px) and (orientation:landscape){
+      #logo {
+        width: 80%;
+    } 
+    
+    .navbar-brand {
+    width: 130px;
+    }   
+    
     a {
-        font-size: 16px;
+        font-size: 11px;
     }
     
     .intro {
-        margin-top: 160px;
-        padding-bottom: 200px;
+        margin-top: 90px;
     }
     .intro-row {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 100px;
     }
     
@@ -458,14 +536,14 @@ li a:hover {
         margin-top: 100px;
     }
     
+    .scroll-down {
+        transform:translateY(-100px);
+        left: 49%;
+    }
+    
     .card-spacing {
         margin: 0px;
         
-    }
-    
-    .blue-box {
-        margin-right: 65px;
-    
     }
     
     .work-grid {
@@ -482,12 +560,26 @@ li a:hover {
     }
     
     .go-work {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     #arrow {
         margin-top: -20px;
     }
+    
+    .icon-size {
+        transform: scale(1,1);
+        
+    }
+    .skill-title {
+        font-size: 15px;
+    }
+    
+    .text {
+        font-size: 14px;
+    }
+    
+  
         
 }
 
@@ -495,31 +587,41 @@ li a:hover {
 /* Macbook 13 */
 @media screen and (max-width:1280px) and (orientation:landscape) {
     #logo {
-        width: 80%;
+        width: 75%;
     }
     
     a {
-        font-size: 14px;
+        font-size: 11px;
     }
     .intro {
-        margin-top: 130px;
-        margin-bottom: -30px;
+        margin-top: 90px;
     }
     
     .intro-row {
         margin-left: 52px;
+        font-size: 18px;
     }
     
     .about-me {
         margin-left: 70px;
+        font-size: 14px;
     }
     
-    .blue-box {
-        margin-right: 20px;
+    .scroll-down {
+        transform:translateY(-70px);
+        left: 48.5%;
+    }
+    
+    .scroll-down:before, 
+    .scroll-down:after{
+   
+        height: 20px;
+        width: 20px; 
+   
     }
     
     .skill-title  {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .text-center, #text-center-tools {
@@ -529,6 +631,7 @@ li a:hover {
     #text-center-PM {
         font-size: 13px;
     }
+    
 
     .card-skills {
         width: 85%;
@@ -618,16 +721,16 @@ li a:hover {
 @media screen and (max-width:991.98px) and (orientation:landscape) {
     .nav {
         padding-left: 75px;
-        padding-right: 75px;
+        padding-right: 10px;
     }
     
     .intro {
         padding-left: 175px;
         padding-right: 175px;
-        padding-bottom: 0px;
-        height: 250px;
+        padding-bottom: 20px;
         padding-top: 30px;
         margin-bottom: -85px;
+        margin-top: 80px;
     }
     
     a {
@@ -635,13 +738,14 @@ li a:hover {
     }
     
      .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 40px;
-        padding-left: 40px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
     
     
     #logo {
         margin-left: -60px;
+        width: 70%;
     }
     
     
@@ -702,108 +806,27 @@ li a:hover {
    
 }
 
-@media screen and (max-width:971px) and (orientation:landscape) {
-    .blue-box {
-        margin-right: -60px;
-    }
-}
 
-
-@media screen and (max-width:951px) and (orientation:landscape) {
-    .blue-box {
-        margin-right: -70px;
-
-    }
-}
-
-@media screen and (max-width:938px) and (orientation:landscape) {
-    .blue-box {
-        margin-right: -80px;
-    }
-    
-}
-
-@media screen and (max-width:925px) and (orientation:landscape) {
-    .blue-box {
-        margin-right: -90px;
-    }
-}
-
-@media screen and (max-width:912px) and (orientation:landscape) {
-    
-    .intro {
-        padding-bottom: 220px;
-    }
-    
-    .about-me {
-        margin-right: -20px;
-    }
-    
-    .blue-box {
-        margin-right: -100px;
-    }
-}
-
-@media screen and (max-width:878px) and (orientation:landscape) {
-    .about-me {
-        margin-right: -35px;
-    }
-}
-
-@media screen and (max-width:877px) and (orientation:landscape) {
-    .about-me {
-        margin-right: -40px;
-    }
-}
-
-@media screen and (max-width:860px) and (orientation:landscape) {
-    .about-me {
-        margin-right: -55px;
-    }
-}
-
-
-@media screen and (max-width:799px) and (orientation:landscape) {
-    .intro {
-        margin-top: 110px;
-    }
-    
-    .about-me {
-        margin-right: -120px;
-        margin-left: -80px;
-    }
-    
-    .intro-row {
-        margin-left: -80px
-    }
-    
-    .blue-box {
-        margin-right: -45px;
-    }
-}
 
 @media screen and (max-width:767.98px) and (orientation:landscape) {
-    #logo {
-        width: 70%;
-    }
+    
     a {
         font-size: 11px;
         
     }
     .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 37px;
+        padding-left: 37px;
     }
     
     .nav {
-        padding-right: 20px;
+        padding-right: 10px;
     }
     
     .intro {
-        margin-top: 120px;
+        margin-top: 90px;
         padding-top: 40px;
-        padding-bottom: 0px;
-        margin-bottom: 5px;
+        margin-bottom: 25px;
         
         
     }
@@ -867,33 +890,6 @@ li a:hover {
     
     
     
-}
-
-
-@media screen and (max-width:750px) and (orientation:landscape) {
-    .intro {
-        padding-bottom: 230px;
-    }
-}
-
-
-
-@media screen and (max-width:700px) and (orientation:landscape) {
-    .blue-box {
-        margin-right: 0px;
-    }
-    
-    .about-me {
-        margin-left: -30px;
-    }
-    
-    .intro-row {
-        margin-left: -45px11
-    }
-    
-    .intro {
-        padding-bottom: 0px;
-    }
 }
 
 
@@ -1043,11 +1039,7 @@ li a:hover {
     
 }
 
-@media screen and (max-width:1090px) and (orientation:portrait) {
-    .intro {
-        padding-bottom: 320px;
-    }
-}
+
 
 @media screen and (max-width:991.98px) and (orientation:portrait) {
       .nav {
@@ -1128,12 +1120,6 @@ li a:hover {
     
 }
 
-@media screen and (max-width:850px) and (orientation:portrait) {
-    .intro {
-        padding-bottom: 270px;
-    }
-}
-
 
 @media screen and (max-width:767.98px) and (orientation:portrait) {
       #logo {
@@ -1144,8 +1130,8 @@ li a:hover {
         
     }
     .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
     }
     
     .nav {
@@ -1153,7 +1139,7 @@ li a:hover {
     }
     
     .intro {
-        margin-top: 120px;
+        margin-top: 85px;
         padding-top: 20px;
         padding-bottom: 250px;
         height: 230px;
@@ -1220,30 +1206,14 @@ li a:hover {
     
 }
 
-@media screen and (max-width:660px) and (orientation:portrait) {
-    .intro {
-        padding-bottom: 280px;
-        padding-top: 50px;
-    }
-    
-    .intro-row {
-        margin-left: -20px;
-    }
-    
-    .about-me {
-        margin-left: 0px;
-        margin-right: -80px;
-    }
-}
 
 @media screen and (max-width:575.98px) and (orientation:portrait) {
     .intro {
-        padding-bottom: 0px;
+        padding-bottom: 50px;
         padding-top: 25px;
     }
     
     .intro-row {
-        font-size: 16px;
         margin-left: -60px;
     }
     
