@@ -42,7 +42,7 @@ nav.scrolled {
 
 a {
     color: white;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 li a:hover {
@@ -54,15 +54,11 @@ li a:hover {
     background-image: url(hamburger_menu.svg);
 }
 
-#logo {
-    width: 95%;
-}
-
 .main-nav-link {
     padding: 0px 200px 0px 200px;
 }
 .navbar-brand {
-    width: 140px;
+    width: 220px;
     margin-left: -20px;
 }
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -70,6 +66,9 @@ li a:hover {
     padding-left: 70px;
 }
 
+.nav {
+    width: 100%;
+}
 
 
 .show > .dropdown-toggle:focus {
@@ -100,7 +99,8 @@ li a:hover {
 
 
 .project-header {
-    margin-top: 100px; 
+    min-width: 100%;
+    margin-top: 160px; 
     background-color: #6D95B7;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -126,7 +126,7 @@ li a:hover {
     
 
 .header-title {
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 50px;
     font-weight: 600;
     
@@ -138,12 +138,12 @@ li a:hover {
 }
 
 .header-duration-title {
-    font-size: 20px;
+    font-size: 22px;
     padding-right: 30px;
     font-weight: 600;
 }
 .header-duration {
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 30px;
 }
 
@@ -389,11 +389,11 @@ li a:hover {
 
 @media screen and (min-width:2560px) {
       #logo {
-        width: 100%;
+        width: 110%;
     }
     
     a {
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -402,7 +402,15 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 110px;
+        margin-top: 180px;
+    }
+    
+    .proj-titles {
+        font-size: 22px;
+    }
+    
+    .proj-details {
+        font-size: 17px;
     }
     
     .icon-size-adjust {
@@ -426,16 +434,8 @@ li a:hover {
 /* Macbook Pro 15 in */
 
 @media screen and (max-width:1440px) and (orientation:landscape) {
-    #logo {
-        width: 80%;
-    }
-    
-    .navbar-brand {
-        width: 130px;
-    }
-    
     a {
-        font-size: 11px;
+        font-size: 16px;
         
     }
     
@@ -448,11 +448,7 @@ li a:hover {
     }
     
     .header-title {
-        font-size: 20px;
-    }
-    
-    .project-header {
-        margin-top: 90px;
+        font-size: 23px;
     }
     
     .header-caption {
@@ -472,11 +468,11 @@ li a:hover {
 
 @media screen and (max-width:1280px) and (orientation:landscape) {
     #logo {
-        width: 75%;
+        width: 80%;
     }
     
     a {
-        font-size: 11px;
+        font-size: 14px;
     }
     
     .proj-details {
@@ -487,10 +483,18 @@ li a:hover {
         margin-top: -38px;
     } 
     
+    .project-header {
+        margin-top: 140px;
+    }
+    
 }
 
 @media screen and (max-width:1199.98px) and (orientation:landscape) {
-
+    .project-header {
+        height: 170px; 
+       
+    }
+    
     .modal-adjust {
         max-width: 400px;
     }
@@ -506,12 +510,18 @@ li a:hover {
         width: 70%;
     }
     
+    a {
+        font-size: 13px;
+    }
+    
      .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 50px;
         padding-left: 50px;
     }
     
     .project-header {
+        margin-top: 130px;
+        height: 130px;
         padding-top: 30px;
         padding-bottom: 10px;
     }
@@ -563,7 +573,7 @@ li a:hover {
     }
     
     .footer-icons {
-        transform: scale(.3,.3);
+        transform: scale(.4,.4);
     }
     .made-by-me {
         font-size: 14px;
@@ -576,6 +586,10 @@ li a:hover {
      .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 40px;
         padding-left: 40px;
+    }
+    
+    a {
+        font-size: 12px;
     }
     
     .header-title, .header-caption {
@@ -881,13 +895,18 @@ li a:hover {
         width: 70%;
     }
     
+    a {
+        font-size: 13px;
+    }
+    
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 50px;
         padding-left: 50px;
     }
     
     .project-header {
-        margin-top: 85px;
+        margin-top: 130px;
+        width: auto;
         padding-top: 30px;
         padding-bottom: 10px;
     }

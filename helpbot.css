@@ -46,7 +46,7 @@ nav.scrolled {
 
 a {
     color: white;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 li a:hover {
@@ -62,7 +62,7 @@ li a:hover {
     padding: 0px 200px 0px 200px;
 }
 .navbar-brand {
-    width: 140px;
+    width: 220px;
     margin-left: -20px;
     
 }
@@ -70,10 +70,6 @@ li a:hover {
 .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 70px;
     padding-left: 70px;
-}
-
-#logo {
-    width: 95%;
 }
 
 
@@ -286,7 +282,8 @@ li a:hover {
 /* Helpbot page */ 
 
 .project-header {
-    margin-top: 100px; 
+    min-width: 100%;
+    margin-top: 160px; 
     background-color: #6D95B7;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -310,24 +307,24 @@ li a:hover {
 }
 
 .header-title {
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 30px;
     font-weight: 600;
     
 }
 
 .header-caption {
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 30px;
 }
 
 .header-duration-title {
-    font-size: 20px;
+    font-size: 22px;
     padding-right: 30px;
     font-weight: 600;
 }
 .header-duration {
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 30px;
 }
 
@@ -796,11 +793,11 @@ li a:hover {
 
 @media screen and (min-width:2560px) {
       #logo {
-        width: 100%;
+        width: 110%;
     }
     
     a {
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -809,17 +806,24 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 110px;
+        margin-top: 180px;
+    }
+    
+    .proj-titles {
+        font-size: 22px;
+    }
+    
+    .proj-details {
+        font-size: 17px;
     }
     
     .icon-size-adjust {
-        transform: scale(.5,.5);
-        margin-top: -85px;
+        transform: scale(.55,.55);
     }
     
     .icon-size-adjust-2 {
-        transform: scale(.6,.6);
-        margin-top: -90px;
+        transform: scale(.7,.7);
+        margin-top: -60px;
     }
     
    
@@ -838,17 +842,8 @@ li a:hover {
 }
 
 @media screen and (max-width:1440px) and (orientation:landscape) {
-    #logo {
-        width: 80%;
-    }
-    
-    .navbar-brand {
-        width: 130px;
-    }
-    
-    
     a {
-        font-size: 11px;
+        font-size: 16px;
         
     }
     
@@ -860,12 +855,8 @@ li a:hover {
         margin-top: -45px;
     }
     
-    .project-header {
-        margin-top: 90px;
-    }
-    
     .header-title {
-        font-size: 20px;
+        font-size: 23px;
     }
     
     .header-caption {
@@ -965,8 +956,6 @@ li a:hover {
     
     .onboarding-title {
         top: 118%;
-        transform: translate(-50px,-210px);
-        
     }
     
     #post-onboard-adjust {
@@ -1056,13 +1045,16 @@ li a:hover {
     }
     
     #logo {
-        width: 75%;
+        width: 80%;
     }
     
     a {
-        font-size: 11px;
+        font-size: 14px;
     }
-
+    
+    .project-header {
+        margin-top: 140px;
+    }
     
     .proj-details, .toc-nav li a {
         font-size: 15px;
@@ -1305,7 +1297,7 @@ li a:hover {
     }
     
     .onboarding-title {
-        transform: translate(-30px, -145px);
+        transform: translate(-30px, -165px);
     }
     
     .post-onboard-title {
@@ -1389,6 +1381,9 @@ li a:hover {
         width: 70%;
     }
     
+    a {
+        font-size: 13px;
+    }
     
      .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 50px;
@@ -1396,7 +1391,7 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 80px;
+        margin-top: 130px;
         padding-top: 30px;
         padding-bottom: 10px;
     }
@@ -2392,7 +2387,7 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 85px;
+        margin-top: 130px;
         padding-top: 30px;
         padding-bottom: 10px;
     }
@@ -2596,7 +2591,7 @@ li a:hover {
     }
     
     a {
-        font-size: 11px;
+        font-size: 12px;
     }
     
     .header-title, .header-caption {
