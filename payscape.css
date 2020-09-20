@@ -29,7 +29,11 @@ nav.scrolled {
 
 a {
     color: white;
-    font-size: 18px;
+    font-size: 13px;
+}
+
+#logo {
+    width: 95%;
 }
 
 li a:hover {
@@ -45,7 +49,7 @@ li a:hover {
     padding: 0px 200px 0px 200px;
 }
 .navbar-brand {
-    width: 220px;
+    width: 140px;
     margin-left: -20px;
 }
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -82,8 +86,7 @@ li a:hover {
 
 
 .project-header {
-    min-width: 100%;
-    margin-top: 160px; 
+    margin-top: 100px; 
     background-color: #6D95B7;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -124,24 +127,24 @@ li a:hover {
 }
 
 .header-title {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 50px;
     font-weight: 600;
     
 }
 
 .header-caption {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 50px;
 }
 
 .header-duration-title {
-    font-size: 22px;
+    font-size: 20px;
     padding-right: 30px;
     font-weight: 600;
 }
 .header-duration {
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 30px;
 }
 
@@ -296,21 +299,35 @@ li a:hover {
     padding-left: 100px;
 }
 
-#user-persona-box {
+.user-persona-box {
     border-style: solid;
     border-color: black; 
-    margin: auto;
-    width: 50%;
+    width: 80%;
+    margin-top: 100px;
+   
+    
 }
+
+.maria-adjust {
+    transform: scale(.8,.8);
+    margin-top: -40px;
+    margin-left: -50px;
+
+}
+
+#persona-adjust {
+    margin-top: 70px;
+}
+
+
 
 #user-persona-info {
-    padding: 40px 40px 0px 40px;
     font-size: 17px;
+    text-align: left;
+
 }
 
-#listing-indent {
-    padding: 0px 40px 40px 55px;
-}
+
 
 .process-text {
     font-size: 18px;
@@ -539,11 +556,11 @@ li a:hover {
 @media screen and (min-width:2560px) {
     
     #logo {
-        width: 110%;
+        width: 100%;
     }
     
     a {
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -552,7 +569,7 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 180px;
+        margin-top: 110px;
     }
     
     .proj-titles {
@@ -614,9 +631,22 @@ li a:hover {
 }
 
 @media screen and (max-width:1440px) and (orientation:landscape) {
+    
+    #logo {
+        width: 80%;
+    }
+    
+    .navbar-brand {
+        width: 130px;
+    }
+    
     a {
-        font-size: 16px;
+        font-size: 11px;
         
+    }
+    
+    .project-header {
+        margin-top: 90px;
     }
     
     .icon-size-adjust {
@@ -624,7 +654,7 @@ li a:hover {
     }
     
      .header-title {
-        font-size: 23px;
+        font-size: 20px;
     }
     
     .header-caption {
@@ -643,6 +673,14 @@ li a:hover {
     .process-text, .text-bold {
         font-size: 16px;
     }
+    
+    .user-persona-box {
+    width: 100%;
+   
+    
+}
+
+
     
     .pic-caption, #card-caption-2, #card-caption, .components-caption  {
         font-size: 14px;
@@ -786,11 +824,11 @@ li a:hover {
 
 @media screen and (max-width:1280px) and (orientation:landscape) {
       #logo {
-        width: 80%;
+        width: 75%;
     }
     
     a {
-        font-size: 14px;
+        font-size: 11px;
     }
     
     .proj-details {
@@ -802,10 +840,7 @@ li a:hover {
         padding-right: 10px;
     } 
     
-    .project-header {
-        margin-top: 140px;
-    }
-    
+
     .step1-indent {
         padding-left: 50px;
     }
@@ -824,9 +859,19 @@ li a:hover {
         padding-right: 20px;
     }
 
-    #user-persona-info {
-        font-size: 14px;
-    }
+
+
+#persona-adjust {
+    margin-top: 50px;
+}
+
+
+
+#user-persona-info {
+    font-size: 14px;
+    text-align: left;
+
+}
 
     
     #image-resize-userflows {
@@ -972,6 +1017,7 @@ li a:hover {
     .pro-cons-spacer {
         margin-left: 0px;
     }
+
     
     .con-extra {
         margin-left: 485px;
@@ -1029,7 +1075,6 @@ li a:hover {
     }
     
       .project-header {
-        margin-top: 130px;
         width: auto;
         padding-top: 30px;
         padding-bottom: 5px;
@@ -1074,6 +1119,28 @@ li a:hover {
     .process-text {
         padding-right: 30px;
     }
+    
+
+
+.maria-adjust {
+    transform: scale(.5,.5) translate(-150px, -120px);
+    
+  
+
+}
+
+#persona-adjust {
+    margin-top: 70px;
+}
+
+
+
+#user-persona-info, #listing-indent {
+    font-size: 14px;
+
+}
+    
+    
     
     #image-resize-userflows {
         transform: scale(1,1);
@@ -1237,6 +1304,10 @@ li a:hover {
         padding-right: 20px; 
     }
     
+    .maria-adjust {
+        transform:scale(.5,.5) translate(-200px,-120px);
+    }
+  
     .pic-caption, .components-caption, #card-caption, #card-caption-2 {
         font-size: 13px;
     }
@@ -1476,6 +1547,12 @@ li a:hover {
     
     .icon-spacing, #resume-padding {
         margin-right: -50px;
+    }s
+    
+    .maria-adjust {
+        transform:scale(.35,.35) translate(-290px,-300px);
+
+        
     }
     
     .userflow-sketch {
@@ -1662,11 +1739,6 @@ li a:hover {
         margin-top: -30px;
         margin-right: 5px;
     }
-
-
-    .project-header {
-        margin-top: 180px;
-    }
     
     #nested-table-sketch {
         transform: scale(.9,.9);
@@ -1677,6 +1749,27 @@ li a:hover {
     .components-caption {
         margin-left: -150px
     }
+    
+    .maria-adjust {
+    transform: scale(.5,.5) translate(-150px, -120px);
+    
+  
+
+}
+
+    #persona-adjust {
+    margin-top: 70px;
+}
+
+
+
+    #user-persona-info, #listing-indent {
+    font-size: 14px;
+    text-align: left;
+
+}
+    
+    
     
     #card-component-1 {
         padding-left: 0px;
@@ -1823,6 +1916,7 @@ li a:hover {
    
         
     
+
 }
 
 @media screen and (max-width:991.98px) and (orientation:portrait) {
@@ -1840,10 +1934,9 @@ li a:hover {
     }
     
       .project-header {
-        margin-top: 130px;
-        width: auto;
         padding-top: 30px;
         padding-bottom: 5px;
+        margin-top: 90px;
     }
     
      .header-title, .header-duration-title {
@@ -2047,6 +2140,12 @@ li a:hover {
     .step-title {
         font-size: 17px;
     }
+    
+     .maria-adjust {
+        transform:scale(.4,.4) translate(-280px,-220px);
+    }
+    
+ 
     
     .process-text, #user-persona-box, .pro-con-points, .text-bold, .pro-header, .con-header {
         font-size: 14px; 
@@ -2302,6 +2401,13 @@ li a:hover {
         padding-top: 30px;
     }
     
+    
+    .maria-adjust {
+        transform:scale(.3,.3) translate(-390px,-420px);
+
+        
+    }
+    
     .text-bold {
         padding-left: 0px;
     }
@@ -2524,6 +2630,8 @@ li a:hover {
         font-size: 13px;
        
     }
+    
+
     
     #user-persona-info {
         padding: 25px 25px 0px 25px
