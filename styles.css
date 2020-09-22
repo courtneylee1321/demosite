@@ -107,7 +107,7 @@ li a:hover {
 .intro-row {
     color: white; 
     font-size: 25px;
-    margin-left: 130px;
+    margin-left: 120px;
 
 }
 
@@ -330,11 +330,11 @@ li a:hover {
     height: 50px;
     width: 30px; 
     position: absolute;
-    left: 50%;
-    bottom: 10px;
+    left: 49%;
+    bottom: 0px;
+    top: 50px;
     border-radius: 50px;
     cursor: pointer;
-    transform:translateY(-200px);
 }
 
 .scroll-down:before, 
