@@ -58,7 +58,7 @@ li a:hover {
     padding: 0px 200px 0px 200px;
 }
 .navbar-brand {
-    width: 140px;
+    width: 8.5%;
     margin-left: -20px;
 }
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -94,7 +94,7 @@ li a:hover {
 }
 
 .project-header {
-    margin-top: 100px; 
+    margin-top: 110px; 
     background-color: #6D95B7;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -241,7 +241,7 @@ li a:hover {
     }
     
     .project-header {
-        margin-top: 110px;
+        margin-top: 140px;
     }
     
     .header-title {
@@ -276,17 +276,17 @@ li a:hover {
 }
 
 @media screen and (max-width:1440px) and (orientation: landscape) {
-    #logo {
-        width: 80%;
+ 
+    .navbar-brand {
+        width: 9.5%;
     }
-    
     a {
         font-size: 11px;
         
     }
     
     .project-header {
-        margin-top: 90px;
+        margin-top: 95px;
     }
     
     .header-title {
@@ -329,12 +329,16 @@ li a:hover {
 }
 
 @media screen and (max-width:1280px) and (orientation:landscape) {
-    #logo {
-        width: 75%;
+    .navbar-brand {
+        width: 9.8%;
     }
 
     .header-title {
         font-size: 20px;
+    }
+    
+    .project-header {
+        margin-top: 90px;
     }
     
     #about-me-pic {
@@ -348,7 +352,6 @@ li a:hover {
         margin-top: 80px;
     }
     
-   
     
     #icon-padding {
         margin-top: 35px;
