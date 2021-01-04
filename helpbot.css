@@ -134,8 +134,6 @@ li a:hover {
     border-left: 1px solid #F0A160;
 }
 
-
-
 .toc-nav a {
     color:#ccc;
     font-size: 17px;
@@ -143,11 +141,25 @@ li a:hover {
     text-decoration: none;
 }
 
-.toc-nav a:hover, .toc-nav a:focus {
-    color: #F0A160;
-    font-weight: 700;
-    
+nav[data-toggle=toc] .nav>li>a {
+    color:#ccc;
 }
+
+nav[data-toggle=toc] .nav>li.active >a {
+    color: #F0A160;
+    font-weight: 800;
+    border-left: 3px solid #F0A160;
+   
+
+}
+
+nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
+    border-left: 3px solid #F0A160;
+    color: #F0A160;
+    font-weight: 800;
+}
+
+
 
 .stickynav {
     position: -webkit-sticky;
@@ -159,11 +171,14 @@ li a:hover {
     padding-bottom: 10px;
 }
 
+/*
+
 .toc-nav li.active > a {
     font-weight: 800;
     color: #F0A160;
 
 }
+*/
 
 /* Modal */
 
@@ -373,6 +388,12 @@ li a:hover {
 
 /* Process */
 
+.design-thinking-titles {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 550;
+}
+
 .process-details {
     position: sticky;
 }
@@ -384,11 +405,6 @@ li a:hover {
     padding-bottom: 10px;
     
 }
-
-
-
-
-
 
 .list {
     padding-bottom: 15px;
@@ -418,10 +434,6 @@ li a:hover {
     
 }
 
-#PR {
-    padding-top: 100px;
-}
-
 .process-text {
     padding-right: 0px;
 }
@@ -439,16 +451,17 @@ li a:hover {
 
 .step-title {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 650;
     color: black;
 }
 
 .step-margin {
     padding-left: 0px;
+    padding-top: 30px;
 }
 
 .steps-buffer {
-    margin-top: 90px;
+    margin-top: 30px;
 }
 
 .steps-buffer2 {
@@ -480,6 +493,18 @@ li a:hover {
     font-size: 15px;
     text-align: left;
 }
+.empathy-map-pictures {
+    width: 100%;
+}
+
+.border-col-right {
+    border-right: 2px solid black;
+}
+
+.bottom-grid-line {
+    border-bottom: 2px solid black;
+}
+
 
 #empathy-image-caption {
     font-size: 15px;
@@ -535,6 +560,10 @@ li a:hover {
     padding-left: 130px;
     margin-top: -210px;
     
+}
+
+.pov-drafts {
+    visibility: hidden;
 }
 
 #POV-D3 {
@@ -878,7 +907,7 @@ li a:hover {
     }
     
     .process-header {
-        margin-top: 50px;
+        margin-top: 20px;
     }
     
     .process-text, .indent, .bold-text{
@@ -1386,10 +1415,13 @@ li a:hover {
 } 
 
 @media screen and (max-width:991.98px) and (orientation:landscape) {
-     #logo {
-        width: 70%;
+    .navbar-brand {
+        width: 10.8%;
     }
     
+    a {
+        font-size: 10px;
+    }
     
      .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 50px;
