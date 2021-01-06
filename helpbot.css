@@ -688,11 +688,23 @@ nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     
 }
 
+.theme-icons {
+    width: 100%;
+}
+
+.row-separator {
+    border-bottom: 2px solid rgba(204, 204, 204, 0.781);
+}
+
 #patterns-caption {
     padding-left: 300px;
     text-align: center;
     margin-top: 60px;
     margin-left: -400px;
+}
+
+.VA-paper-prototype {
+    width: 100%;
 }
 
 .pre-onboard , .onboard , .post-onboard {
@@ -877,6 +889,10 @@ nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
         font-size: 11px;
         
     }
+
+    #logo {
+        width: 80%;
+    }
     
     .icon-size-adjust {
         margin-top: -40px;
@@ -885,7 +901,6 @@ nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     .icon-size-adjust-2 {   
         margin-top: -45px;
     }
-    
     .project-header {
         margin-top: 95px;
     }
@@ -1092,6 +1107,8 @@ nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     .project-header {
         margin-top: 90px;
     }
+
+
 
     
     .proj-details, .toc-nav li a {
@@ -2425,8 +2442,8 @@ nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
     }
     
     .project-header {
-        margin-top: 85px;
-        padding-top: 30px;
+        margin-top: 95px;
+        padding-top: 60px;
         padding-bottom: 10px;
     }
     
