@@ -243,6 +243,10 @@ li a:hover {
     padding-top: 10px;
 }
 
+#text-center-research {
+    padding-top: 20px;
+}
+
 
 .icon-size 
 {
@@ -436,7 +440,7 @@ li a:hover {
 @media screen and (min-width:2560px) {
   
     #logo {
-        width: 100%;
+        width: 90%;
     } 
     
     a {
@@ -728,18 +732,20 @@ li a:hover {
     }
     
     a {
-        font-size: 13px;
+        font-size: 10px;
     }
     
      .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 50px;
         padding-left: 50px;
     }
+       .navbar-brand {
+        width: 10.8%;
+    }
     
     
     #logo {
         margin-left: -60px;
-        width: 70%;
     }
     
     
