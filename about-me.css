@@ -189,7 +189,7 @@ li a:hover {
 #link {
     color:#6D95B7;
     text-decoration: underline;
-    font-size: 13px;
+    font-size: 14px;
 
 }
 
@@ -247,7 +247,7 @@ li a:hover {
     .header-title {
         font-size: 28px;
     }
-    .about-me-text {
+    .about-me-text { 
         margin-top: 95px;
         margin-bottom: 0px;
         font-size: 20px;
