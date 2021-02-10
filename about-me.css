@@ -134,7 +134,7 @@ li a:hover {
 
 .facts {
     background: #F0A160;
-    margin-left: 100px; 
+    margin-left: 163px; 
     width: 10%;
     padding-bottom: 0px;
     margin-right: -20px;
@@ -229,7 +229,7 @@ li a:hover {
 
 @media screen and (min-width:2560px) and (orientation:landscape) {
     #logo {
-        width: 100%;
+        width: 90%;
     }
     a {
         font-size: 14px;
@@ -423,12 +423,9 @@ li a:hover {
 }
 
 @media screen and (max-width:991.98px) and (orientation:landscape) {
-     #logo {
-        width: 70%;
-    }
     
     a {
-        font-size: 13px;
+        font-size: 10px;
     }
     
      .navbar-expand-sm .navbar-nav .nav-link {
@@ -437,8 +434,7 @@ li a:hover {
     }
     
      .project-header {
-        margin-top: 85px;
-        width: auto;
+        margin-top: 80px;
         padding-top: 30px;
         padding-bottom: 5px;
     }
